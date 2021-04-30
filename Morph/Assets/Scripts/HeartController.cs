@@ -19,11 +19,11 @@ public class HeartController : MonoBehaviour
     void Update()
     {
         //This if/if statement changes the look of the object, by altering its material, based on player input
-        if (Input.GetKeyDown(keyToPress) || Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(keyToPress))
         {
             heartRenderer.material = pressedMaterial;
         }
-        if (Input.GetKeyUp(keyToPress) || Input.GetMouseButtonUp(0))
+        if (Input.GetKeyUp(keyToPress))
         {
             heartRenderer.material = defaultMaterial;
         }

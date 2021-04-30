@@ -11,7 +11,7 @@ public class StressObject : MonoBehaviour
     void Update()
     {
         //This, in tandem with a "onTriggerEnter", ensures that notes are hit if they are inside a certain area, and only under those circumstances
-        if (Input.GetKeyDown(keyToPress) || Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(keyToPress))
         {
             if (canBePressed)
             {
