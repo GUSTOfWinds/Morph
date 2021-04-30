@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class morph : MonoBehaviour
 {
-	public GameObject currentObject;
-	public GameObject[] models;
+	public GameObject startObject;
 
 	private bool morphed = false;
-	private GameObject startObject;
+	private GameObject currentObject;
 
 	// Start is called before the first frame update
 	void Start()
     {
-		startObject = currentObject;
+		currentObject = Instantiate(startObject, gameObject.transform.position, gameObject.transform.rotation, gameObject.transform);
 	}
 
     // Update is called once per frame
@@ -26,27 +25,16 @@ public class morph : MonoBehaviour
 		return morphed;
 	}
 
-	public void morphObject(string input) {
-		GameObject newObj = currentObject;
-		switch(input) {
-			case "kitchenChair":
-				newObj = models[0];
-				break;
-			case "genericBox":
-				newObj = models[1];
-				break;
-			case "barrel":
-				newObj = models[2];
-				break;
-		}
+	public void morphObject(GameObject newObj) {
+		if(morphed) {newObj = startObject;}
 
+		newObj = Instantiate(newObj, gameObject.transform.position, gameObject.transform.rotation, gameObject.transform);
+		//newObj = Instantiate(newObj, gameObject.transform);
 		gameObject.GetComponent<player>().toggleMovement();
 		morphed = morphed ? morphed = false : morphed = true;
-		if(!morphed) {newObj = startObject;}
 
-		currentObject.SetActive(false);
-		newObj.SetActive(true);
+		Destroy(currentObject);
 		currentObject = newObj;
-		Debug.Log("You are now a: " + newObj.name);
+		Debug.Log("You are now a: " + currentObject.name);
 	}
 }

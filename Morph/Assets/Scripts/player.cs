@@ -41,15 +41,15 @@ public class player : MonoBehaviour{
 
 	private void SelectedObject() {
 		//For mouse
-		Debug.Log("Mouse position: " + Input.mousePosition + ". Mouse 1 down: " + Input.GetMouseButtonDown(0));
+		//Debug.Log("Mouse position: " + Input.mousePosition + ". Mouse 1 down: " + Input.GetMouseButtonDown(0));
 		if(Input.GetMouseButtonDown(0)) {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			Debug.DrawRay(ray.origin, ray.direction * 100, Color.red, 30f);
 			RaycastHit hit;
 			if(Physics.Raycast(ray, out hit)) {
-				Debug.Log(hit.transform.name);
-				if(hit.collider != null) {
-					string selectedObject = hit.transform.gameObject.name;
+				//Debug.Log(hit.transform.name);
+				if(hit.collider != null && hit.transform.tag.Equals("MorphableObject")) {
+					GameObject selectedObject = hit.transform.gameObject;
 					Debug.Log("Selected: " + selectedObject + ".");
 					gameObject.GetComponent<morph>().morphObject(selectedObject);
 				}
