@@ -2,11 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 public class FieldOfView : MonoBehaviour
 {
-
     public float viewRadius;
     [Range(0, 360)]
     public float viewAngle;
@@ -78,7 +75,7 @@ public class FieldOfView : MonoBehaviour
     // Hur många rays vi skickar ut.
     void DrawFieldOfView()
     {
-        var targetObject = GameObject.Find("Target");
+        var targetObject = GameObject.Find("player");
         var targetPos = targetObject.transform.position;
         int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);
         float stepAngleSize = viewAngle / stepCount;
@@ -239,3 +236,10 @@ public class FieldOfView : MonoBehaviour
 // Ändra i viewcast lägg till spelaren. Spelaren och obstacle.
 
 // Fixa ny raycast som alltid pekar mellan fienden och spelaren. En fråga om ser spelaren mig just nu. Är något ivägen eller inte t ex en vägg. Quaternion.Angle Spelarens rotation och fiendens rotation. Ifall fienden ser spelaren oavsett vart den är roterad så ska fienden se en.
+
+
+// Fixa funktionalitet för när hunden hittar ett transformerat objekt. Den ska hänvisa till keep your cool. Hunden ska kalla en metod när den hittar spelaren men den ska vara tom så gör en annan klar den.
+
+// En collider saknas antar jag?
+
+

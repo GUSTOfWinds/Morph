@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Level1.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/TemporaryLevel.unity
-    guid: 14b60536459e73e4b876d8bdce09b157
-  - enabled: 1
     path: Assets/Scenes/KeepYourCool.unity
     guid: 61f7580b77a184f4a941d62ff404f32b
   m_configObjects: {}
