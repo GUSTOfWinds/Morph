@@ -8,10 +8,12 @@ public class player : MonoBehaviour{
 
 	private Rigidbody rb;
 	private GameObject startObject;
-	private bool canMove = true;
-	TouchPhase touchPhase = TouchPhase.Ended;
+	private bool canMove;
+	TouchPhase touchPhase; //Don't remove!
 
 	private void Start() {
+		canMove = true;
+		touchPhase = TouchPhase.Ended;
 		rb = GetComponent<Rigidbody>();
 	}
 
@@ -35,25 +37,29 @@ public class player : MonoBehaviour{
 	private void OnCollisionEnter(Collision collision) {
 		foreach(ContactPoint contact in collision.contacts) {
 			Debug.DrawRay(contact.point, contact.normal, Color.white);
-			Debug.Log("Wanker");
+			Debug.Log("Wanker"); //The collision of the player with objects and walls doesn't work...
 		}
 	}
 
 	private void SelectedObject() {
 		//For mouse
 		//Debug.Log("Mouse position: " + Input.mousePosition + ". Mouse 1 down: " + Input.GetMouseButtonDown(0));
-		if(Input.GetMouseButtonDown(0)) {
+		if(Input.GetMouseButtonDown(0) && gameObject.GetComponent<morph>().isMorphed().Equals(false)) {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			Debug.DrawRay(ray.origin, ray.direction * 100, Color.red, 30f);
 			RaycastHit hit;
 			if(Physics.Raycast(ray, out hit)) {
-				//Debug.Log(hit.transform.name);
+				//Debug.Log("Ray hit: " + hit.transform.name + ".");
 				if(hit.collider != null && hit.transform.tag.Equals("MorphableObject")) {
+					toggleMovement();
 					GameObject selectedObject = hit.transform.gameObject;
-					Debug.Log("Selected: " + selectedObject + ".");
+					//Debug.Log("Selected: " + selectedObject + ".");
 					gameObject.GetComponent<morph>().morphObject(selectedObject);
 				}
 			}
+		}else if(Input.GetMouseButtonDown(0) && gameObject.GetComponent<morph>().isMorphed().Equals(true)) {
+			gameObject.GetComponent<morph>().morphObject();
+			toggleMovement();
 		}
 
 		//For touch, needs updating from For mouse part
