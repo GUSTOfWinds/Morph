@@ -28,9 +28,10 @@ public class EnemyPatrol : MonoBehaviour
             return;
         }
 
-        transform.position = Vector2.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
+		gameObject.transform.rotation = Quaternion.LookRotation(transform.position).normalized;
+		transform.position = Vector3.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
 
-        if (Vector2.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
+        if (Vector3.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
         {
             if (waitTime <= 0)
             {
