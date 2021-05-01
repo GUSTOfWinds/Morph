@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Controller : MonoBehaviour
 {
@@ -20,8 +21,9 @@ public class Controller : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         //Check for a match with the specified name on any GameObject that collides with your GameObject
-        if (collision.gameObject.name == "player")
+        if (collision.gameObject.tag == "Player")
         {
+            
             // Skriv in så man kommer till Main Menu efter man dör här.
             Time.timeScale = 0;
             
@@ -29,6 +31,7 @@ public class Controller : MonoBehaviour
             // skriv in vilken tag det är som har fångat dig. Ifall det är en vakt är det slut ifall det är en hund så ska man ta sig till keep your cool.
 
             Debug.Log("Pang");
+            SceneManager.LoadScene("MainMenu");
             
 
         }
