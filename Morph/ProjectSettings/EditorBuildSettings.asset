@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: d40c27bb0b67a2e41b4b239d803cb98d
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/Level 1.unity
+    guid: dce53aeca90437146ba5ef05f8b4ae1d
+  - enabled: 1
+    path: Assets/Scenes/EndOfGame.unity
+    guid: 09de20b5f8bf7514383efa8295fa69b3
   - enabled: 1
     path: Assets/Scenes/KeepYourCool.unity
     guid: 61f7580b77a184f4a941d62ff404f32b

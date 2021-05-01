@@ -15,4 +15,8 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Application.Quit does not function within the editor, so here is a debug message instead.");
     }
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
