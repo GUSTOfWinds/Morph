@@ -7,7 +7,7 @@ public class ExitLevelManager : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag.Equals("Player"))
         {
             //This checks a boolean thats set by the TreasureManager script, to see if the player has picked up the treasure and, therefore, can or can't progress.
             //It also resets this boolean in order for it to work properly in the next level (scene)
