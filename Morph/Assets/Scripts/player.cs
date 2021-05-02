@@ -18,7 +18,7 @@ public class Player : MonoBehaviour{
 		touchPhase = TouchPhase.Ended;
 		rb = GetComponent<Rigidbody>();
 
-		keyboardAndMouse = false;
+		keyboardAndMouse = true;
 	}
 
 	void Update() {
@@ -46,7 +46,7 @@ public class Player : MonoBehaviour{
 	}
 
 	private void SelectedObject() {
-		bool isMorphed = gameObject.GetComponent < Morph>().isMorphed().Equals(false);
+		bool isMorphed = gameObject.GetComponent<Morph>().isMorphed().Equals(false);
 		//For mouse
 		if(keyboardAndMouse) {
 			if(Input.GetMouseButtonDown(0) && isMorphed) {
