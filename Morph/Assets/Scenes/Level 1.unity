@@ -4611,6 +4611,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3969229045403028519, guid: 3895bb792e5c1894bb076151964444e9, type: 3}
   m_PrefabInstance: {fileID: 6328372934043875516}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1452805165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4704499978590974648, guid: ec30ae4d230f482448e50ba97fba12ea, type: 3}
+  m_PrefabInstance: {fileID: 68130137}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1452805166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452805165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3870530e49e5924b89dcd13597422f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treasureCollected: 0
 --- !u!1001 &1486010396
 PrefabInstance:
   m_ObjectHideFlags: 0
