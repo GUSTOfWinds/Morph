@@ -52,7 +52,7 @@ public class Player : MonoBehaviour{
 	private void SelectedObject() {
 		bool isMorphed = gameObject.GetComponent<Morph>().isMorphed().Equals(false);
 		//For mouse
-		/*if(Input.GetMouseButtonDown(0) && isMorphed) {
+		if(Input.GetMouseButtonDown(0) && isMorphed) {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			Debug.DrawRay(ray.origin, ray.direction * 100, Color.red, 30f);
 			RaycastHit hit;
@@ -68,11 +68,11 @@ public class Player : MonoBehaviour{
 		} else if(Input.GetMouseButtonDown(0) && gameObject.GetComponent<Morph>().isMorphed().Equals(true)) {
 			gameObject.GetComponent<Morph>().morphObject();
 			toggleMovement();
-		}*/
+		}
 
 		//For touch, needs updating from For mouse part
 		//sauce: https://answers.unity.com/questions/1126621/best-way-to-detect-touch-on-a-gameobject.html
-		if(Input.touchCount > 0 && Input.GetTouch(0).phase.Equals(touchPhase) && gameObject.GetComponent<Morph>().isMorphed().Equals(false)) {
+		/*if(Input.touchCount > 0 && Input.GetTouch(0).phase.Equals(touchPhase) && gameObject.GetComponent<Morph>().isMorphed().Equals(false)) {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			Debug.DrawRay(ray.origin, ray.direction * 100, Color.red, 30f);
 			RaycastHit hit;
@@ -88,6 +88,6 @@ public class Player : MonoBehaviour{
 		} else if(Input.GetMouseButtonDown(0) && gameObject.GetComponent<Morph>().isMorphed().Equals(true)) {
 			gameObject.GetComponent<Morph>().morphObject();
 			toggleMovement();
-		}
+		}*/
 	}
 }
