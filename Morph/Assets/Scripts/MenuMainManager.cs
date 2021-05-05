@@ -1,0 +1,46 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MenuMainManager : MonoBehaviour
+{
+
+    //These gameObjects are the parents of all the things that each menu sub-section contains
+    public GameObject mainMenu;
+    public GameObject settingsMenu;
+    public GameObject creditsMenu;
+
+    //This ensures the correct menu sub-section is the active one when the scene begins
+    void Start()
+    {
+        mainMenu.SetActive(true);
+        settingsMenu.SetActive(false);
+        creditsMenu.SetActive(false);
+        //SPACE: For a music player to play music
+    }
+
+    //This loads the next scene in the queue
+    public void StartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    
+    //These 3 methods enable/disable different parts of the menu as the user clicks through them
+    public void loadMain()
+    {
+        mainMenu.SetActive(true);
+        settingsMenu.SetActive(false);
+        creditsMenu.SetActive(false);
+    }
+    public void LoadSettings()
+    {
+        settingsMenu.SetActive(true);
+        mainMenu.SetActive(false);
+    }
+    public void LoadCredits()
+    {
+        creditsMenu.SetActive(true);
+        mainMenu.SetActive(false);
+    }
+}

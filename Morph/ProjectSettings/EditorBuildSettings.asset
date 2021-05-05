@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/KeepYourCool.unity
     guid: 61f7580b77a184f4a941d62ff404f32b
+  - enabled: 1
+    path: Assets/Scenes/Gustav_Testing.unity
+    guid: a733bb4c0f945864d94b1949aa8d0744
   m_configObjects: {}
