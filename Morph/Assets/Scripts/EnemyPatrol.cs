@@ -12,6 +12,9 @@ public class EnemyPatrol : MonoBehaviour
 
     public Transform[] moveSpots;
     private int randomSpot;
+    private int stopCount;
+    private int startCount;
+
 
     private void Start()
     {
@@ -42,6 +45,28 @@ public class EnemyPatrol : MonoBehaviour
             {
                 waitTime -= Time.deltaTime;
             }
+        }
+    }
+
+    public void StopPatrol()
+    {
+        stopCount++;
+
+        if(stopCount > 1)
+        {
+            doMove = false;
+            stopCount = 0;
+        }
+    }
+
+    public void StartPatrol()
+    {
+        startCount++;
+
+        if (startCount > 1)
+        {
+            doMove = true;
+            startCount = 0;
         }
     }
 }

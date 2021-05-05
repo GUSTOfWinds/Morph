@@ -13,9 +13,15 @@ public class FOV : MonoBehaviour
     public LayerMask targetMask;
     public LayerMask obstacleMask;
 
+    private GameObject _targetObject;
+    private GameObject _guardObject;
+    private EnemyPatrol _guardScript;
 
     [HideInInspector]
     public List<Transform> visibleTargets = new List<Transform>();
+
+    [HideInInspector]
+    public Transform visibleTarget = null;
 
     public float meshResolution;
     public int edgeResolveIterations;
@@ -29,6 +35,10 @@ public class FOV : MonoBehaviour
         viewMesh = new Mesh();
         viewMesh.name = "view Mesh";
         viewMeshFilter.mesh = viewMesh;
+
+        _targetObject = GameObject.Find("Player"); // GameObject.FindGameObjectsWithTag("player");
+        _guardObject = GameObject.Find("guard");
+        _guardScript = _guardObject.GetComponent<EnemyPatrol>();
 
         StartCoroutine("FindTargetsWithDelay", .2f);
     }
@@ -64,7 +74,11 @@ public class FOV : MonoBehaviour
 
                 if (!Physics.Raycast(transform.position, dirToTarget, dstToTarget, obstacleMask))
                 {
-                    visibleTargets.Add(target);
+                    visibleTarget = target;
+                    //visibleTargets.Add(target);
+                } else
+                {
+                    visibleTarget = null;
                 }
             }
         }
@@ -76,10 +90,7 @@ public class FOV : MonoBehaviour
     // Hur många rays vi skickar ut.
     void DrawFieldOfView()
     {
-        var targetObject = GameObject.Find("player"); // GameObject.FindGameObjectsWithTag("player");
-        var guardObject = GameObject.Find("guard");
-        var guardScript = guardObject.GetComponent<EnemyPatrol>();
-        var targetPos = targetObject.transform.position;
+        var targetPos = _targetObject.transform.position;
         int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);
         float stepAngleSize = viewAngle / stepCount;
         List<Vector3> viewPoints = new List<Vector3>();
@@ -91,13 +102,16 @@ public class FOV : MonoBehaviour
 
             if (i > 0)
             {
-                if (newViewCast.hitTarget && visibleTargets.Count > 0)
-                {                    
-                    guardScript.doMove = false;
+                if (newViewCast.hitTarget && visibleTarget != null)
+                {
+                    _guardScript.StopPatrol();
                     transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime / 50);
-
-
                 }
+
+                //if(!newViewCast.hitTarget && !newViewCast.hitObstacle && !_guardScript.doMove)
+                //{
+                //    _guardScript.StartPatrol();
+                //}
 
                 if (oldViewCast.hitObstacle != newViewCast.hitObstacle)
                 {

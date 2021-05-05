@@ -1977,7 +1977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   viewRadius: 20
-  viewAngle: 34
+  viewAngle: 90
   targetMask:
     serializedVersion: 2
     m_Bits: 64
@@ -1985,6 +1985,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   visibleTargets: []
+  visibleTarget: {fileID: 0}
   meshResolution: 10
   edgeResolveIterations: 0
   viewMeshFilter: {fileID: 902518358}
@@ -3496,7 +3497,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902518355}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 507745953}
@@ -7176,7 +7177,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 796c925ca2b9df74da6c561b87dade03, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 796c925ca2b9df74da6c561b87dade03, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7546,7 +7547,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4704499978522912737}
   m_LocalRotation: {x: -0, y: 0.70710677, z: -0, w: 0.7071069}
-  m_LocalPosition: {x: 140, y: 0, z: 90}
+  m_LocalPosition: {x: 0, y: -0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1267944717}
@@ -8295,6 +8296,7 @@ GameObject:
   - component: {fileID: 7222310703101583836}
   - component: {fileID: 4704499978522912738}
   - component: {fileID: 1452805171}
+  - component: {fileID: 4704499978522912739}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -8315,6 +8317,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
+--- !u!136 &4704499978522912739
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4704499978522912737}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5269423146118077120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8937,7 +8953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0bc8a327a2778b44bafd468f1a75dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 7
+  movementSpeed: 10
   turnTime: 0.1
   joystick: {fileID: 302749415}
 --- !u!1001 &7895639190404259704
