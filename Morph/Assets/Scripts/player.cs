@@ -11,7 +11,7 @@ public class Player : MonoBehaviour{
 	private GameObject startObject;
 	private float turnVelocity;
 	private bool canMove;
-	TouchPhase touchPhase; //Don't remove!
+	private TouchPhase touchPhase; //Don't remove!
 
 	private void Start() {
 		canMove = true;
@@ -46,7 +46,7 @@ public class Player : MonoBehaviour{
 
 	private void OnCollisionEnter(Collision collision) {
 		Debug.DrawRay(collision.contacts[0].point, collision.contacts[0].normal, Color.white);
-		Debug.Log("Collision!"); //The collision of the player with objects and walls doesn't work...
+		Debug.Log("Collision!");
 	}
 
 	private void SelectedObject() {
@@ -70,7 +70,7 @@ public class Player : MonoBehaviour{
 			toggleMovement();
 		}
 
-		//For touch, needs updating from For mouse part
+		//For touch, uncomment for release!
 		//sauce: https://answers.unity.com/questions/1126621/best-way-to-detect-touch-on-a-gameobject.html
 		/*if(Input.touchCount > 0 && Input.GetTouch(0).phase.Equals(touchPhase) && gameObject.GetComponent<Morph>().isMorphed().Equals(false)) {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
