@@ -8,7 +8,7 @@ public class EnemyPatrol : MonoBehaviour
     public float speed;
     private float waitTime;
     public float startWaitTime;
-    public bool doMove;
+    public bool IsOnPatrol;
 
     public Transform[] moveSpots;
     private int randomSpot;
@@ -20,12 +20,12 @@ public class EnemyPatrol : MonoBehaviour
     {
         waitTime = startWaitTime;
         randomSpot = Random.Range(0, moveSpots.Length);
-        doMove = true;
+        IsOnPatrol = true;
     }
 
     private void Update()
     {
-        if(!doMove)
+        if(!IsOnPatrol)
         {
             // Ifall spelaren syns så slutar vakten att patrolera. 
             return;
@@ -48,25 +48,36 @@ public class EnemyPatrol : MonoBehaviour
         }
     }
 
+    // Patrol scripts.
+
     public void StopPatrol()
     {
-        stopCount++;
-
-        if(stopCount > 1)
+        if (!IsOnPatrol)
         {
-            doMove = false;
-            stopCount = 0;
+            return;
         }
+
+        Debug.Log("Stopping patrol");
+        
+        IsOnPatrol = false;
+
+        StartCoroutine(returnToPatrol());
     }
 
     public void StartPatrol()
     {
-        startCount++;
+        Debug.Log("Starting patrol");
+        
+        IsOnPatrol = true;
+    }
 
-        if (startCount > 1)
-        {
-            doMove = true;
-            startCount = 0;
-        }
+    IEnumerator returnToPatrol()
+    {
+        Debug.Log("Returning to patrol");
+
+        //Wait for 5 seconds
+        yield return new WaitForSeconds(5);
+
+        StartPatrol();
     }
 }

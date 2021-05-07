@@ -16,6 +16,8 @@ public class FOV : MonoBehaviour
     private GameObject _targetObject;
     private GameObject _guardObject;
     private EnemyPatrol _guardScript;
+    // För att se om spelaren är morphad eller inte.
+    private Morph _targetScript;
 
     [HideInInspector]
     public List<Transform> visibleTargets = new List<Transform>();
@@ -38,6 +40,7 @@ public class FOV : MonoBehaviour
 
         _targetObject = GameObject.Find("Player"); // GameObject.FindGameObjectsWithTag("player");
         _guardObject = GameObject.Find("guard");
+        _targetScript = _targetObject.GetComponent<Morph>();
         _guardScript = _guardObject.GetComponent<EnemyPatrol>();
 
         StartCoroutine("FindTargetsWithDelay", .2f);
@@ -100,15 +103,18 @@ public class FOV : MonoBehaviour
             float angle = transform.eulerAngles.y - viewAngle / 2 + stepAngleSize * i;
             ViewCastInfo newViewCast = ViewCast(angle);
 
+            //  && !_targetScript.isMorphed() Lagts till för att inte upptäcka spelaren ifall den är morphad.
+
+
             if (i > 0)
             {
-                if (newViewCast.hitTarget && visibleTarget != null)
+                if (newViewCast.hitTarget && visibleTarget != null && !_targetScript.isMorphed())
                 {
                     _guardScript.StopPatrol();
-                    transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime / 50);
+                    transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime / 20);
                 }
 
-                //if(!newViewCast.hitTarget && !newViewCast.hitObstacle && !_guardScript.doMove)
+                //if (!newViewCast.hitTarget && !_guardScript.doMove)
                 //{
                 //    _guardScript.StartPatrol();
                 //}

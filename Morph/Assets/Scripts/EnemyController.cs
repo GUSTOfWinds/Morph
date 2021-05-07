@@ -8,13 +8,24 @@ public class EnemyController : MonoBehaviour
     void OnCollisionEnter(Collision collision){
         //Check for a match with the specified name on any GameObject that collides with your GameObject
         if (collision.gameObject.tag.Equals("Player")){
-            // Skriv in så man kommer till Main Menu efter man dör här.
-            Time.timeScale = 0;
-            
+            var morph = collision.gameObject.GetComponent<Morph>();
+
+            if (morph.isMorphed())
+            {
+                Debug.Log("Haha e mofad");
+            }
+            else
+            {
+                // Skriv in så man kommer till Main Menu efter man dör här.
+                var mainMenu = new MainMenu();
+                mainMenu.LoadMainMenu();
+            }
+
+
             // anropa en viss scen. Den scenen som ska kallas på när man är fångad. 
             // skriv in vilken tag det är som har fångat dig. Ifall det är en vakt är det slut ifall det är en hund så ska man ta sig till keep your cool.
 
-            Debug.Log("Pang");
+            
         }
 
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
