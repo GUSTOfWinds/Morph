@@ -20,7 +20,7 @@ public class DoorController : MonoBehaviour{
 	public void OpenDoor() {
 		isClosed = false;
 
-		transform.position = new Vector3(pos.x + 1, pos.y + 2.5f, pos.z + 40);
+		transform.localPosition = new Vector3(pos.x + 1, pos.y + 2.5f, pos.z);
 		transform.Rotate(new Vector3(0, 0, -90));
 
 		doorLight.color = Color.green;
