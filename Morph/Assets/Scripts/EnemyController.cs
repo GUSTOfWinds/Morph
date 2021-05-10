@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class EnemyController : MonoBehaviour
     void OnCollisionEnter(Collision collision){
         //Check for a match with the specified name on any GameObject that collides with your GameObject
         if (collision.gameObject.tag.Equals("Player")){
-            var morph = collision.gameObject.GetComponent<Morph>();
+            var morph = collision.gameObject.GetComponent<MorphManager>();
 
             if (morph.isMorphed())
             {
@@ -17,8 +18,7 @@ public class EnemyController : MonoBehaviour
             else
             {
                 // Skriv in så man kommer till Main Menu efter man dör här.
-                var mainMenu = new MainMenu();
-                mainMenu.LoadMainMenu();
+                SceneManager.LoadScene("MainMenu");
             }
 
 

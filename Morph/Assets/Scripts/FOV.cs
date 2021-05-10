@@ -17,7 +17,7 @@ public class FOV : MonoBehaviour
     private GameObject _guardObject;
     private EnemyPatrol _guardScript;
     // För att se om spelaren är morphad eller inte.
-    private Morph _targetScript;
+    private MorphManager _targetScript;
 
     [HideInInspector]
     public List<Transform> visibleTargets = new List<Transform>();
@@ -40,7 +40,7 @@ public class FOV : MonoBehaviour
 
         _targetObject = GameObject.Find("Player"); // GameObject.FindGameObjectsWithTag("player");
         _guardObject = GameObject.Find("guard");
-        _targetScript = _targetObject.GetComponent<Morph>();
+        _targetScript = _targetObject.GetComponent<MorphManager>();
         _guardScript = _guardObject.GetComponent<EnemyPatrol>();
 
         StartCoroutine("FindTargetsWithDelay", .2f);
