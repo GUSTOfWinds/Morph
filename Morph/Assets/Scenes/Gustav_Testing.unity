@@ -3880,6 +3880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1667898348}
   pauseButton: {fileID: 1200591665}
+  playerController: {fileID: 0}
 --- !u!1 &1249345572
 GameObject:
   m_ObjectHideFlags: 0
@@ -4940,7 +4941,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1807297435
 Transform:
   m_ObjectHideFlags: 0
@@ -4990,7 +4991,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1886458385
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5029,7 +5030,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1903351438
 RectTransform:
   m_ObjectHideFlags: 0
