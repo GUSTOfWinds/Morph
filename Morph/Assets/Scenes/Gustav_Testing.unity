@@ -594,7 +594,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: -101.85, y: 89.5}
-  m_SizeDelta: {x: 203.6981, y: 306.1707}
+  m_SizeDelta: {x: 203.7, y: 422.2246}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &100303181
 MonoBehaviour:
@@ -627,10 +627,13 @@ MonoBehaviour:
     Sound Designer
 
 
-    Developer
+    Programmer
+    &
+
+    Assistant Sound Designer
 
 
-    Developer'
+    Level Designer'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 125cb55b44b24c4393181402bc6200e6, type: 2}
@@ -3012,6 +3015,8 @@ MonoBehaviour:
     Anton Jilg
 
 
+
+
     Oliver
     Kjellin'
   m_isRightToLeft: 0
@@ -4935,7 +4940,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1807297435
 Transform:
   m_ObjectHideFlags: 0
