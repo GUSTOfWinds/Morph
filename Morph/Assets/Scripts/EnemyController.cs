@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyController : MonoBehaviour
 {
@@ -16,17 +17,23 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
+                FindObjectOfType<AudioManager>().Play("DeathCaptured");
                 // Skriv in så man kommer till Main Menu efter man dör här.
-                var mainMenu = new MainMenu();
-                mainMenu.LoadMainMenu();
+
+                Invoke("MainMenu", 2.0f);
+                
+                
+                // Kolla application load scene.
             }
 
+           
 
             // anropa en viss scen. Den scenen som ska kallas på när man är fångad. 
             // skriv in vilken tag det är som har fångat dig. Ifall det är en vakt är det slut ifall det är en hund så ska man ta sig till keep your cool.
 
-            
+
         }
+
 
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
         if (collision.gameObject.tag == "MyGameObjectTag"){
@@ -34,4 +41,10 @@ public class EnemyController : MonoBehaviour
             Debug.Log("Do something else here");
         }
     }
+
+    void MainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
 }
