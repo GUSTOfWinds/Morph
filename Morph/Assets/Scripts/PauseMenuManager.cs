@@ -9,6 +9,7 @@ public class PauseMenuManager : MonoBehaviour
     public static bool isGamePaused = false;
     public GameObject pauseMenu;
     public GameObject pauseButton;
+    public GameObject playerController;
 
     //This ensures the game is not paused when the scene begins
     private void Start()
@@ -23,6 +24,7 @@ public class PauseMenuManager : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         pauseButton.SetActive(true);
+        playerController.SetActive(true);
         Time.timeScale = 1f;
         isGamePaused = false;
     }
@@ -30,6 +32,7 @@ public class PauseMenuManager : MonoBehaviour
     {
         pauseMenu.SetActive(true);
         pauseButton.SetActive(false);
+        playerController.SetActive(false);
         Time.timeScale = 0f;
         isGamePaused = true;
     }
