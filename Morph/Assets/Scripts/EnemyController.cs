@@ -9,7 +9,7 @@ public class EnemyController : MonoBehaviour
     void OnCollisionEnter(Collision collision){
         //Check for a match with the specified name on any GameObject that collides with your GameObject
         if (collision.gameObject.tag.Equals("Player")){
-            var morph = collision.gameObject.GetComponent<Morph>();
+            var morph = collision.gameObject.GetComponent<MorphController>();
 
             if (morph.isMorphed())
             {

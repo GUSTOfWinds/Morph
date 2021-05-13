@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour{
+public class PlayerController : MonoBehaviour{
 	public int movementSpeed = 10;
 	public float turnTime = .1f;
 	public Joystick joystick;
@@ -50,7 +50,7 @@ public class Player : MonoBehaviour{
 	}
 
 	private void SelectedObject() {
-		bool isMorphed = gameObject.GetComponent<Morph>().isMorphed().Equals(false);
+		bool isMorphed = gameObject.GetComponent<MorphController>().isMorphed().Equals(false);
 		//For mouse
 		if(Input.GetMouseButtonDown(0) && isMorphed) {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -62,11 +62,11 @@ public class Player : MonoBehaviour{
 					toggleMovement();
 					GameObject selectedObject = hit.transform.gameObject;
 					//Debug.Log("Selected: " + selectedObject + ".");
-					gameObject.GetComponent<Morph>().morphObject(selectedObject);
+					gameObject.GetComponent<MorphController>().morphObject(selectedObject);
 				}
 			}
-		} else if(Input.GetMouseButtonDown(0) && gameObject.GetComponent<Morph>().isMorphed().Equals(true)) {
-			gameObject.GetComponent<Morph>().morphObject();
+		} else if(Input.GetMouseButtonDown(0) && gameObject.GetComponent<MorphController>().isMorphed().Equals(true)) {
+			gameObject.GetComponent<MorphController>().morphObject();
 			toggleMovement();
 		}
 
