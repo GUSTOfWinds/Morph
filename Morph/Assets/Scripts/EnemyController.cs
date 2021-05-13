@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour
                 FindObjectOfType<AudioManager>().Play("DeathCaptured");
                 // Skriv in så man kommer till Main Menu efter man dör här.
 
-                Invoke("MainMenu", 2.0f);
+                Invoke("GameOver", 2.0f);
                 
                 
                 // Kolla application load scene.
@@ -42,9 +42,9 @@ public class EnemyController : MonoBehaviour
         }
     }
 
-    void MainMenu()
+    void GameOver()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("Game Over");
     }
 
 }

@@ -13,11 +13,11 @@ public class ExitController : MonoBehaviour
 			ItemController script = collider.GetComponent<ItemController>(); //Unsure if this works properly
 			if (script.hasItem(keycard)){
 				script.removeItem(keycard);
-                Debug.Log("Player is exiting scene, and moving to the next. Removing" + keycard.name + " collected");
+                Debug.Log("Player is exiting scene, and moving to the next. Removing: " + keycard.name);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
             }
             else{
-                Debug.Log("Player hasn't picked up the treasure yet, and can't progress further.");
+                Debug.Log("Player hasn't picked up the " + keycard.name + " yet, and can't progress further.");
             }
         }
     }
