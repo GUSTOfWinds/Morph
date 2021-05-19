@@ -10,6 +10,8 @@ public class PauseMenuManager : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject pauseButton;
     public GameObject playerJoystickController;
+    public AudioSource audioSource;
+    public AudioClip buttonSound;
 
     //This ensures the game is not paused when the scene begins
     private void Start()
@@ -22,6 +24,7 @@ public class PauseMenuManager : MonoBehaviour
     //These three methods are tied to buttons and fulfill all the functions of the menu, both actually pausing the game as well as enabling/disabling elements or changing scenes
     public void ResumeGame()
     {
+        buttonClick();
         pauseMenu.SetActive(false);
         pauseButton.SetActive(true);
         playerJoystickController.SetActive(true);
@@ -30,6 +33,7 @@ public class PauseMenuManager : MonoBehaviour
     }
     public void PauseGame()
     {
+        buttonClick();
         pauseMenu.SetActive(true);
         pauseButton.SetActive(false);
         playerJoystickController.SetActive(false);
@@ -38,8 +42,14 @@ public class PauseMenuManager : MonoBehaviour
     }
     public void LoadMenu()
     {
+        buttonClick();
         SceneManager.LoadScene("Main Menu");
         pauseMenu.SetActive(false);
         pauseButton.SetActive(false);
+    }
+
+    public void buttonClick()
+    {
+        audioSource.PlayOneShot(buttonSound);
     }
 }

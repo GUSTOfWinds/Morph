@@ -15,6 +15,10 @@ public class MenuMainManager : MonoBehaviour
     //This is for connecting the exposed main mixer to the slider in the settings
     public AudioMixer masterMixer;
 
+    //Sounds for buttons
+    public AudioSource audioSource;
+    public AudioClip buttonSound;
+
     //This ensures the correct menu sub-section is the active one when the scene begins
     void Start()
     {
@@ -33,17 +37,20 @@ public class MenuMainManager : MonoBehaviour
     //These 3 methods enable/disable different parts of the menu as the user clicks through them
     public void loadMain()
     {
+        buttonClick();
         mainMenu.SetActive(true);
         settingsMenu.SetActive(false);
         creditsMenu.SetActive(false);
     }
     public void LoadSettings()
     {
+        buttonClick();
         settingsMenu.SetActive(true);
         mainMenu.SetActive(false);
     }
     public void LoadCredits()
     {
+        buttonClick();
         creditsMenu.SetActive(true);
         mainMenu.SetActive(false);
     }
@@ -57,5 +64,9 @@ public class MenuMainManager : MonoBehaviour
     {
         QualitySettings.SetQualityLevel(qualityIndex, true);
         Debug.Log("setQuality Called" + qualityIndex);
+    }
+    public void buttonClick()
+    {
+        audioSource.PlayOneShot(buttonSound);
     }
 }
