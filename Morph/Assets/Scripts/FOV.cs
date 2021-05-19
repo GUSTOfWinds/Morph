@@ -95,6 +95,7 @@ public class FOV : MonoBehaviour
     {
         var targetPos = _targetObject.transform.position;
         int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);
+        bool foundPlayer = false;
         float stepAngleSize = viewAngle / stepCount;
         List<Vector3> viewPoints = new List<Vector3>();
         ViewCastInfo oldViewCast = new ViewCastInfo();
@@ -112,6 +113,7 @@ public class FOV : MonoBehaviour
                 {
                     _guardScript.StopPatrol();
                     transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime / 20);
+                    foundPlayer = true;
                 }
 
                 //if (!newViewCast.hitTarget && !_guardScript.doMove)
@@ -161,7 +163,16 @@ public class FOV : MonoBehaviour
         viewMesh.vertices = vertices;
         viewMesh.triangles = triangles;
         viewMesh.RecalculateNormals();
+    
+        if(foundPlayer == true)
+        {
+            Debug.Log("Jag ser dig");
+            FindObjectOfType<AudioManager>().Play("Discovered");
+        }      
     }
+
+
+
 
 
     EdgeInfo FindEdge(ViewCastInfo minViewCast, ViewCastInfo maxViewCast)

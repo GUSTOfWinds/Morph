@@ -2712,6 +2712,10 @@ PrefabInstance:
       propertyPath: sounds.Array.data[0].name
       value: Theme
       objectReference: {fileID: 0}
+    - target: {fileID: 5055872228602061141, guid: 037066f3ee0b237478c3d1f580f6b170, type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 037066f3ee0b237478c3d1f580f6b170, type: 3}
 --- !u!1 &1269431507

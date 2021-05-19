@@ -9,20 +9,23 @@ public class DogController : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         //Check for a match with the specified name on any GameObject that collides with your GameObject
-        if (collision.gameObject.tag.Equals("Player") && collision.gameObject.tag.Equals("MorphableObject"))
+        if (collision.gameObject.tag.Equals("Player") || collision.gameObject.tag.Equals("MorphableObject"))
         {
             var morph = collision.gameObject.GetComponent<MorphController>();
 
             if (morph.isMorphed())
             {
-                Debug.Log("Haha e mofad");
+                FindObjectOfType<AudioManager>().Play("dogBarking");
+                // Skriv in så man kommer till Main Menu efter man dör här.
+
+                Invoke("GameOver", 1.0f);
             }
             else
             {
-                FindObjectOfType<AudioManager>().Play("DeathCaptured");
+                FindObjectOfType<AudioManager>().Play("dogBarking");
                 // Skriv in så man kommer till Main Menu efter man dör här.
 
-                Invoke("GameOver", 2.0f);
+                Invoke("GameOver", 1.0f);
 
 
                 // Kolla application load scene.

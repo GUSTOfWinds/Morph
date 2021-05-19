@@ -97,6 +97,7 @@ public class FOVDOG : MonoBehaviour
         var targetPos = _targetObject.transform.position;
         int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);
         float stepAngleSize = viewAngle / stepCount;
+        bool foundPlayer = false;
         List<Vector3> viewPoints = new List<Vector3>();
         ViewCastInfo oldViewCast = new ViewCastInfo();
         for (int i = 0; i <= stepCount; i++)
@@ -113,6 +114,7 @@ public class FOVDOG : MonoBehaviour
                 {
                     _guardScript.StopPatrol();
                     transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime / 20);
+                    foundPlayer = true;
                 }
 
                 //if (!newViewCast.hitTarget && !_guardScript.doMove)
@@ -162,6 +164,16 @@ public class FOVDOG : MonoBehaviour
         viewMesh.vertices = vertices;
         viewMesh.triangles = triangles;
         viewMesh.RecalculateNormals();
+
+
+
+        if (foundPlayer == true)
+        {
+            Debug.Log("Ser dig!");            
+            FindObjectOfType<AudioManager>().Play("DogSniffing");
+        }
+        
+      
     }
 
 
