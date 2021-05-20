@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Laser : MonoBehaviour{
 	private void OnCollisionEnter(Collision collision) {
 		if(collision.transform.tag.Equals("Player")) {
-			//SceneManager.LoadScene(GameOver); //Kill player
+			SceneManager.LoadSceneAsync("Game Over"); //Använder Async eftersom Unity påstår att det är bättre. https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.LoadSceneAsync.html
 		}
 	}
 
@@ -21,9 +21,5 @@ public class Laser : MonoBehaviour{
 	public bool toggle() {
 		gameObject.SetActive(gameObject.activeSelf.Equals(true) ? false : true);
 		return true;
-	}
-
-	private void Start() {
-		Debug.Log(gameObject.name);
 	}
 }

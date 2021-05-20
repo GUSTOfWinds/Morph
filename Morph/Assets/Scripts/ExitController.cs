@@ -14,10 +14,10 @@ public class ExitController : MonoBehaviour
 			if (script.hasItem(keycard)){
 				script.removeItem(keycard);
                 Debug.Log("Player is exiting scene, and moving to the next. Removing: " + keycard.name);
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-            }
-            else{
+                SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex + 1); //Använder Async eftersom Unity påstår att det är bättre. https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager.LoadSceneAsync.html
+			} else {
                 Debug.Log("Player hasn't picked up the " + keycard.name + " yet, and can't progress further.");
+				//Add text object here telling the player to get the objective?
             }
         }
     }
