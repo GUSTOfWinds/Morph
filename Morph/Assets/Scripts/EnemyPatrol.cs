@@ -81,7 +81,7 @@ public class EnemyPatrol : MonoBehaviour
 
         StartPatrol();
     }
-
+    
 
     public void ChangeRotation()
     {
