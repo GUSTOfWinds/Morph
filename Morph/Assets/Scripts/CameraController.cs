@@ -8,7 +8,7 @@ public class CameraController : MonoBehaviour
 	public float speed = 100f;
 	public Vector3 offset;
 	
-    void LateUpdate()
+    void FixedUpdate()
     {
 		transform.position = Vector3.Lerp(transform.position, target.position + offset, speed * Time.deltaTime);
     }
