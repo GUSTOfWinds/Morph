@@ -217,3 +217,107 @@ Received Import Request.
 Start importing Assets/Prefabs/New Folder using Guid(42f09a34aed950f4d9ece19effa59d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a30ebf4c3ec490af84a493f328815b7') in 0.001514 seconds
   Import took 0.004309 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 2504.525155 seconds.
+  path: Assets/Materials/Laser.mat
+  artifactKey: Guid(4ed670cd853688f4185f435bd012b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Laser.mat using Guid(4ed670cd853688f4185f435bd012b684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19545ab7de1539503b576393ac216a04') in 0.074266 seconds
+  Import took 0.076951 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1268 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.6 MB.
+System memory in use after: 83.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1823.
+Total: 1.967501 ms (FindLiveObjects: 0.165927 ms CreateObjectMapping: 0.046107 ms MarkObjects: 1.670369 ms  DeleteObjects: 0.077698 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2175.709722 seconds.
+  path: Assets/Scripts/Item.cs
+  artifactKey: Guid(3c59714c551e4214d9d18712b1fbe6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Item.cs using Guid(3c59714c551e4214d9d18712b1fbe6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99df3fdca18991ecd774ea8300911fc7') in 0.004838 seconds
+  Import took 0.007778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.703310 seconds.
+  path: Assets/Scripts/ItemController.cs
+  artifactKey: Guid(f52b41800e336b14ebb3e9931f409bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ItemController.cs using Guid(f52b41800e336b14ebb3e9931f409bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba03591240a22bd731842b696eb296f5') in 0.001328 seconds
+  Import took 0.003506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.352680 seconds.
+  path: Assets/Scripts/MenuMainManager.cs
+  artifactKey: Guid(7ae494796b26de94ea3d62c8b4783a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuMainManager.cs using Guid(7ae494796b26de94ea3d62c8b4783a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c16075478a71d6eb66e58b15c1a140') in 0.001645 seconds
+  Import took 0.003990 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013705 seconds.
+  path: Assets/Scripts/MenuMainManager.cs
+  artifactKey: Guid(7ae494796b26de94ea3d62c8b4783a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/MenuMainManager.cs using Guid(7ae494796b26de94ea3d62c8b4783a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c16075478a71d6eb66e58b15c1a140') in 0.001220 seconds
+  Import took 0.003353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.410632 seconds.
+  path: Assets/Scripts/Treasure.cs
+  artifactKey: Guid(73678e67825a1c5408dc9f72e8fce3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Treasure.cs using Guid(73678e67825a1c5408dc9f72e8fce3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e01725c4f08a8a330e990c87ab2ec5f') in 0.001653 seconds
+  Import took 0.003999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.753614 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(4ee37d5ea82c4dc4fa1ea3975c495a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(4ee37d5ea82c4dc4fa1ea3975c495a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0281701949c306899ef51275c62d2435') in 0.001378 seconds
+  Import took 0.003787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.665792 seconds.
+  path: Assets/Scripts/FOVEditor.cs
+  artifactKey: Guid(1fb9c1859a6fd0e40887c087be8aefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FOVEditor.cs using Guid(1fb9c1859a6fd0e40887c087be8aefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f653906410dadde8acbbe83bf75dc90') in 0.001615 seconds
+  Import took 0.003999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Scripts/FOVEditor.cs
+  artifactKey: Guid(1fb9c1859a6fd0e40887c087be8aefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FOVEditor.cs using Guid(1fb9c1859a6fd0e40887c087be8aefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f653906410dadde8acbbe83bf75dc90') in 0.001376 seconds
+  Import took 0.003398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 127.777299 seconds.
+  path: Assets/Scenes/Level 2.unity
+  artifactKey: Guid(504413c598ea18843af1b33e38e9abe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level 2.unity using Guid(504413c598ea18843af1b33e38e9abe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bec5b1540489e5cc504fadc144624ec') in 0.013772 seconds
+  Import took 0.016575 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
