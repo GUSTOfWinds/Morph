@@ -30,9 +30,9 @@ public class EnemyPatrol : MonoBehaviour
             // Ifall spelaren syns så slutar vakten att patrolera. 
             return;
         }
-
-		gameObject.transform.rotation = Quaternion.LookRotation(transform.position).normalized;
-		transform.position = Vector3.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
+        
+        transform.position = Vector3.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
+                
 
         if (Vector3.Distance(transform.position, moveSpots[randomSpot].position) < 0.2f)
         {
@@ -40,6 +40,7 @@ public class EnemyPatrol : MonoBehaviour
             {
                 randomSpot = Random.Range(0, moveSpots.Length);
                 waitTime = startWaitTime;
+                ChangeRotation();
             }
             else
             {
@@ -80,4 +81,20 @@ public class EnemyPatrol : MonoBehaviour
 
         StartPatrol();
     }
+    
+
+    public void ChangeRotation()
+    {
+        if (Vector3.Distance(moveSpots[1].position, transform.position) < 0.2)
+        {
+            gameObject.transform.LookAt(moveSpots[0]);
+        }
+         else if (Vector3.Distance(moveSpots[0].position, transform.position) < 0.2)
+        { 
+            gameObject.transform.LookAt(moveSpots[1]);
+        }
+               
+
+    }
+
 }
