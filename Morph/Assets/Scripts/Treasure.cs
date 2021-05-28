@@ -8,5 +8,6 @@ public class Treasure : MonoBehaviour
 
 	private void OnTriggerEnter(Collider collider) {
 		door.GetComponent<DoorController>().OpenDoor();
+		FindObjectOfType<AudioManager>().Play("OpenDoor");
 	}
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FOV : MonoBehaviour
+public class FOVDOG : MonoBehaviour
 {
     public float viewRadius;
     [Range(0, 360)]
@@ -79,7 +79,8 @@ public class FOV : MonoBehaviour
                 {
                     visibleTarget = target;
                     //visibleTargets.Add(target);
-                } else
+                }
+                else
                 {
                     visibleTarget = null;
                 }
@@ -90,13 +91,13 @@ public class FOV : MonoBehaviour
     // För hur många targets som highlightas när man kollar mot dem.
 
 
-    float TimeWhenFound;
     // Hur många rays vi skickar ut.
     void DrawFieldOfView()
     {
         var targetPos = _targetObject.transform.position;
-        int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);        
+        int stepCount = Mathf.RoundToInt(viewAngle * meshResolution);
         float stepAngleSize = viewAngle / stepCount;
+        bool foundPlayer = false;
         List<Vector3> viewPoints = new List<Vector3>();
         ViewCastInfo oldViewCast = new ViewCastInfo();
         for (int i = 0; i <= stepCount; i++)
@@ -109,14 +110,11 @@ public class FOV : MonoBehaviour
 
             if (i > 0)
             {
-                if (newViewCast.hitTarget && visibleTarget != null && !_targetScript.isMorphed())
+                if (newViewCast.hitTarget && visibleTarget != null)
                 {
-                    if(_guardScript.IsOnPatrol == true) { 
-                        FindObjectOfType<AudioManager>().Play("Discovered");
-                        Debug.Log("Jag ser dig");
-                    }
                     _guardScript.StopPatrol();
                     transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime / 20);
+                    foundPlayer = true;
                 }
 
                 //if (!newViewCast.hitTarget && !_guardScript.doMove)
@@ -166,11 +164,17 @@ public class FOV : MonoBehaviour
         viewMesh.vertices = vertices;
         viewMesh.triangles = triangles;
         viewMesh.RecalculateNormals();
-    
+
+
+
+        if (foundPlayer == true)
+        {
+            Debug.Log("Ser dig!");            
+            FindObjectOfType<AudioManager>().Play("DogSniffing");
+        }
+        
+      
     }
-
-
-
 
 
     EdgeInfo FindEdge(ViewCastInfo minViewCast, ViewCastInfo maxViewCast)
@@ -274,5 +278,4 @@ public class FOV : MonoBehaviour
 // Fixa funktionalitet för när hunden hittar ett transformerat objekt. Den ska hänvisa till keep your cool. Hunden ska kalla en metod när den hittar spelaren men den ska vara tom så gör en annan klar den.
 
 // En collider saknas antar jag?
-
 

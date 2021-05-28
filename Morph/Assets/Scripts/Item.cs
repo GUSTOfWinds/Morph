@@ -63,6 +63,7 @@ public class Item : MonoBehaviour
             textContent.text = "Acquired: " + gameObject.name;
             Invoke("disableText", deletionTime);
             particles.Play();
+            FindObjectOfType<AudioManager>().Play("PickUpMoney");
             //ADD CODE: PLAYing of the Audio
         }
     }
