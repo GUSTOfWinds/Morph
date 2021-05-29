@@ -6,8 +6,8 @@ public class Keypad : MonoBehaviour{
 	public GameObject player;
 	public GameObject keycard;
 	public GameObject activate;
-	private void OnCollisionEnter(Collision collision) {
-		if(collision.transform.tag.Equals(player.tag) && player.GetComponent<ItemController>().hasItem(keycard)) {
+	private void OnTriggerEnter(Collider collider) {
+		if(collider.transform.tag.Equals(player.tag) && player.GetComponent<ItemController>().hasItem(keycard)) {
 			activate.GetComponent<Laser>().turnOff();
 		}
 	}

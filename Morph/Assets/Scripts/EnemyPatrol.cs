@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class EnemyPatrol : MonoBehaviour
 {
-
     public float speed;
     private float waitTime;
     public float startWaitTime;
@@ -14,7 +13,6 @@ public class EnemyPatrol : MonoBehaviour
     private int randomSpot;
     private int stopCount;
     private int startCount;
-
 
     private void Start()
     {
@@ -76,8 +74,8 @@ public class EnemyPatrol : MonoBehaviour
     {
         Debug.Log("Returning to patrol");
 
-        //Wait for 5 seconds
-        yield return new WaitForSeconds(5);
+        //Wait for x seconds
+        yield return new WaitForSeconds(1);
 
         StartPatrol();
     }

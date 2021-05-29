@@ -30,7 +30,8 @@ public class Item : MonoBehaviour
         particles = gameObject.GetComponent<ParticleSystem>();
         textObject = GameObject.Find("PopUpText");
         textContent = textObject.GetComponent<TextMeshProUGUI>();
-    }
+		particles.Play();
+	}
     private void Update()
     {
         if (repeat)
@@ -53,7 +54,6 @@ public class Item : MonoBehaviour
     {
         if (collider.gameObject.tag.Equals("Player") && canBeTaken)
         {
-
             collider.gameObject.GetComponent<ItemController>().addItem(gameObject);
             removeObject = true;
             canBeTaken = false;
@@ -62,7 +62,6 @@ public class Item : MonoBehaviour
             textObject.SetActive(true);
             textContent.text = "Acquired: " + gameObject.name;
             Invoke("disableText", deletionTime);
-            particles.Play();
             FindObjectOfType<AudioManager>().Play("PickUpMoney");
             //ADD CODE: PLAYing of the Audio
         }
