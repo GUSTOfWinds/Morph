@@ -169,10 +169,6 @@ public class FOV : MonoBehaviour
     
     }
 
-
-
-
-
     EdgeInfo FindEdge(ViewCastInfo minViewCast, ViewCastInfo maxViewCast)
     {
         float minAngle = minViewCast.angle;
@@ -218,8 +214,6 @@ public class FOV : MonoBehaviour
         }
     }
 
-
-
     public Vector3 DirFromAngle(float angleInDegrees, bool angleIsGlobal)
     {
         if (!angleIsGlobal)
@@ -262,14 +256,9 @@ public class FOV : MonoBehaviour
     }
 }
 
-
-
-
-
 // Ändra i viewcast lägg till spelaren. Spelaren och obstacle.
 
 // Fixa ny raycast som alltid pekar mellan fienden och spelaren. En fråga om ser spelaren mig just nu. Är något ivägen eller inte t ex en vägg. Quaternion.Angle Spelarens rotation och fiendens rotation. Ifall fienden ser spelaren oavsett vart den är roterad så ska fienden se en.
-
 
 // Fixa funktionalitet för när hunden hittar ett transformerat objekt. Den ska hänvisa till keep your cool. Hunden ska kalla en metod när den hittar spelaren men den ska vara tom så gör en annan klar den.
 
