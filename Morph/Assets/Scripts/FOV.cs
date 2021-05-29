@@ -113,7 +113,7 @@ public class FOV : MonoBehaviour
                 {
                     if(_guardScript.IsOnPatrol == true) { 
                         FindObjectOfType<AudioManager>().Play("Discovered");
-                        Debug.Log("Jag ser dig");
+                        Debug.Log("Guard sees player.");
                     }
                     _guardScript.StopPatrol();
                     transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime / 20);
@@ -138,8 +138,6 @@ public class FOV : MonoBehaviour
                 }
 
             }
-
-
             viewPoints.Add(newViewCast.point);
             oldViewCast = newViewCast;
         }
@@ -161,12 +159,10 @@ public class FOV : MonoBehaviour
                 triangles[i * 3 + 2] = i + 2;
             }
         }
-
         viewMesh.Clear();
         viewMesh.vertices = vertices;
         viewMesh.triangles = triangles;
         viewMesh.RecalculateNormals();
-    
     }
 
     EdgeInfo FindEdge(ViewCastInfo minViewCast, ViewCastInfo maxViewCast)
@@ -192,7 +188,6 @@ public class FOV : MonoBehaviour
                 maxPoint = newViewCast.point;
             }
         }
-
         return new EdgeInfo(minPoint, maxPoint);
     }
 
