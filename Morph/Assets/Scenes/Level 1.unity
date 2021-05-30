@@ -15310,6 +15310,10 @@ PrefabInstance:
       propertyPath: viewRadius
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 5231480650767652754, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
       propertyPath: m_RootOrder
       value: 0
