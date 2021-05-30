@@ -18,6 +18,7 @@ public class DoorController : MonoBehaviour{
 	}
 
 	public void OpenDoor() {
+		FindObjectOfType<AudioManager>().Play("OpenDoor");
 		isClosed = false;
 
 		transform.position = new Vector3(pos.x + 1, pos.y + 2.5f, pos.z + 40);

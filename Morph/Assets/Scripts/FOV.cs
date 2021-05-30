@@ -113,7 +113,7 @@ public class FOV : MonoBehaviour
                 {
                     if(_guardScript.IsOnPatrol == true) { 
                         FindObjectOfType<AudioManager>().Play("Discovered");
-                        Debug.Log("Jag ser dig");
+                        Debug.Log("Guard sees player.");
                     }
                     _guardScript.StopPatrol();
                     transform.position = Vector3.MoveTowards(transform.position, targetPos, Time.deltaTime / 20);
@@ -138,8 +138,6 @@ public class FOV : MonoBehaviour
                 }
 
             }
-
-
             viewPoints.Add(newViewCast.point);
             oldViewCast = newViewCast;
         }
@@ -161,17 +159,11 @@ public class FOV : MonoBehaviour
                 triangles[i * 3 + 2] = i + 2;
             }
         }
-
         viewMesh.Clear();
         viewMesh.vertices = vertices;
         viewMesh.triangles = triangles;
         viewMesh.RecalculateNormals();
-    
     }
-
-
-
-
 
     EdgeInfo FindEdge(ViewCastInfo minViewCast, ViewCastInfo maxViewCast)
     {
@@ -196,7 +188,6 @@ public class FOV : MonoBehaviour
                 maxPoint = newViewCast.point;
             }
         }
-
         return new EdgeInfo(minPoint, maxPoint);
     }
 
@@ -217,8 +208,6 @@ public class FOV : MonoBehaviour
             return new ViewCastInfo(false, false, transform.position + dir * viewRadius, viewRadius, globalAngle);
         }
     }
-
-
 
     public Vector3 DirFromAngle(float angleInDegrees, bool angleIsGlobal)
     {
@@ -262,14 +251,9 @@ public class FOV : MonoBehaviour
     }
 }
 
-
-
-
-
 // Ändra i viewcast lägg till spelaren. Spelaren och obstacle.
 
 // Fixa ny raycast som alltid pekar mellan fienden och spelaren. En fråga om ser spelaren mig just nu. Är något ivägen eller inte t ex en vägg. Quaternion.Angle Spelarens rotation och fiendens rotation. Ifall fienden ser spelaren oavsett vart den är roterad så ska fienden se en.
-
 
 // Fixa funktionalitet för när hunden hittar ett transformerat objekt. Den ska hänvisa till keep your cool. Hunden ska kalla en metod när den hittar spelaren men den ska vara tom så gör en annan klar den.
 

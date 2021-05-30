@@ -20,23 +20,18 @@ public class PlayerController : MonoBehaviour{
 	}
 
 	void Update() {
-		SelectedObject();
+		SelectObject();
 	}
 
 	private void FixedUpdate() {
 		if(canMove) {
 			Vector3 velocity = new Vector3(joystick.Horizontal, 0, joystick.Vertical).normalized;
-			//rb.MovePosition(rb.position + velocity * Time.fixedDeltaTime * speedMultiplier);
-			//rb.AddForce(velocity);
 			if(velocity.magnitude >= .1f) {
 				float targetAngle = Mathf.Atan2(velocity.x, velocity.z) * Mathf.Rad2Deg;
 				float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnVelocity, turnTime);
 				transform.rotation = Quaternion.Euler(0, targetAngle, 0);
 				gameObject.GetComponent<CharacterController>().Move(velocity * movementSpeed * Time.deltaTime);
-				
 			}
-			//gameObject.transform.rotation = Quaternion.LookRotation(velocity);
-			//gameObject.transform.Translate(velocity * movementSpeed * Time.deltaTime, Space.World);
 		}
 	}
 
@@ -44,12 +39,10 @@ public class PlayerController : MonoBehaviour{
 		return canMove ? canMove = false : canMove = true;
 	}
 
-	private void OnCollisionEnter(Collision collision) {
-		Debug.DrawRay(collision.contacts[0].point, collision.contacts[0].normal, Color.white);
-		Debug.Log("Collision!");
-	}
-
-	private void SelectedObject() {
+	//Bug: Using the joystick with object behind causes player to select that object. 
+	//Additional bug: Using the previous method can invert the toggle movement and allow movement of player whilst morphed.
+	//Additional bug: Using the previous method can allow the player the climb on top of the guard.
+	private void SelectObject() {
 		bool isMorphed = gameObject.GetComponent<MorphController>().isMorphed().Equals(false);
 		//For mouse
 		if(Input.GetMouseButtonDown(0) && isMorphed) {

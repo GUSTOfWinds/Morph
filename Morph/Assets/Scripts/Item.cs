@@ -21,39 +21,26 @@ public class Item : MonoBehaviour
     public TextMeshProUGUI textContent;
     public bool repeat = true;
 
-
     //ADD CODE: Define any needed audio systems
 
-    private void Start()
-    {
+    private void Start(){
         mesh = gameObject.GetComponent<MeshRenderer>();
         particles = gameObject.GetComponent<ParticleSystem>();
         textObject = GameObject.Find("PopUpText");
         textContent = textObject.GetComponent<TextMeshProUGUI>();
-    }
-    private void Update()
-    {
-        if (repeat)
-        {
+	}
+    private void Update(){
+        if (repeat){
             textObject.SetActive(false);
             repeat = false;
         }
-
-
-        if (removeObject)
-        {
+        if (removeObject){
             timer += Time.deltaTime;
-            if (timer >= deletionTime)
-            {
-                gameObject.SetActive(false);
-            }
+            if (timer >= deletionTime){gameObject.SetActive(false);}
         }
     }
-    private void OnTriggerEnter(Collider collider)
-    {
-        if (collider.gameObject.tag.Equals("Player") && canBeTaken)
-        {
-
+    private void OnTriggerEnter(Collider collider){
+        if (collider.gameObject.tag.Equals("Player") && canBeTaken){
             collider.gameObject.GetComponent<ItemController>().addItem(gameObject);
             removeObject = true;
             canBeTaken = false;
@@ -62,15 +49,13 @@ public class Item : MonoBehaviour
             textObject.SetActive(true);
             textContent.text = "Acquired: " + gameObject.name;
             Invoke("disableText", deletionTime);
-            particles.Play();
             FindObjectOfType<AudioManager>().Play("PickUpMoney");
             //ADD CODE: PLAYing of the Audio
         }
     }
 
     //Called with invoke, in the TriggerEnter method
-    private void disableText()
-    {
+    private void disableText(){
         textObject.SetActive(false);
     }
 }

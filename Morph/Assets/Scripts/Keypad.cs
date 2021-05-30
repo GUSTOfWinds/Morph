@@ -5,10 +5,10 @@ using UnityEngine;
 public class Keypad : MonoBehaviour{
 	public GameObject player;
 	public GameObject keycard;
-	public GameObject activate;
-	private void OnCollisionEnter(Collision collision) {
-		if(collision.transform.tag.Equals(player.tag) && player.GetComponent<ItemController>().hasItem(keycard)) {
-			activate.GetComponent<Laser>().turnOff();
+	public GameObject laser;
+	private void OnTriggerEnter(Collider collider) {
+		if(collider.transform.tag.Equals(player.tag) && player.GetComponent<ItemController>().hasItem(keycard)) {
+			laser.GetComponent<Laser>().turnOff();
 		}
 	}
 }
