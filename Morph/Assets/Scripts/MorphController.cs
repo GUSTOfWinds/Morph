@@ -26,7 +26,7 @@ public class MorphController : MonoBehaviour
 		Destroy(currentObject);
 		currentObject = newObj;
 		Debug.Log("You are now a: " + currentObject.name);
-		FindObjectOfType<AudioManager>().Play("Transform");
+		//FindObjectOfType<AudioManager>().Play("Transform");
 	}
 	public void morphObject() {
 		morphObject(startObject);
