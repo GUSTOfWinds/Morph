@@ -1030,20 +1030,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573ba90649adc7640a296001e5c8b820, type: 3}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 --- !u!4 &110992084 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 573ba90649adc7640a296001e5c8b820, type: 3}
   m_PrefabInstance: {fileID: 110992083}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 --- !u!1 &113272669
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,11 +1202,6 @@ Transform:
   m_PrefabInstance: {fileID: 128560403}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &129178682
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
->>>>>>> parent of 239e55e (Försök cont 2.)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1315,125 +1301,6 @@ BoxCollider:
   m_Size: {x: 1.2500002, y: 0.4000001, z: 0.9999998}
   m_Center: {x: 0.0000002682209, y: 0.20000002, z: -0.0000013560057}
 --- !u!1 &134160501
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 129178683}
-  - component: {fileID: 129178685}
-  - component: {fileID: 129178684}
-  m_Layer: 0
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_Name: Cube.004
-=======
-  m_Name: ENTITIES
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &129178683
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_GameObject: {fileID: 129178682}
-  m_LocalRotation: {x: 0.7071068, y: 0.000000053385076, z: -0.70710677, w: 0.00000005338508}
-  m_LocalPosition: {x: -0.28970164, y: 0.22745259, z: -4.4035673}
-  m_LocalScale: {x: -47.28613, y: -1969.0311, z: -11.06106}
-  m_Children: []
-  m_Father: {fileID: 674216827}
-  m_RootOrder: 2
-=======
-  m_GameObject: {fileID: 134160501}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -84.45, y: 1.5949999, z: 0.11500001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 590300434}
-  - {fileID: 87923051}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &129178684
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129178682}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 28bc64a1ed1f8bf449a4e9823ad164b8, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &129178685
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129178682}
-  m_Mesh: {fileID: -5053925668127403250, guid: b116c387aaa8cf946acdecb2a8aba694, type: 3}
---- !u!1 &130397891 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 73462db9ee55c9d4794eb3b544f2f821, type: 3}
-  m_PrefabInstance: {fileID: 821126466}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &130397892
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130397891}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.2500002, y: 0.4000001, z: 0.9999998}
-  m_Center: {x: 0.0000002682209, y: 0.20000002, z: -0.0000013560057}
---- !u!1 &134160501
->>>>>>> parent of 239e55e (Försök cont 2.)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3489,11 +3356,6 @@ BoxCollider:
   m_Size: {x: 2.5000014, y: 1.0000008, z: 1.500001}
   m_Center: {x: -0.00000012069539, y: 0.5000001, z: 0.000007630879}
 --- !u!1 &369678639
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
->>>>>>> parent of 239e55e (Försök cont 2.)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3565,55 +3427,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.4, y: 0, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-<<<<<<< HEAD
-=======
-  m_Children:
-  - {fileID: 1342145604}
-  - {fileID: 2031457433}
-  - {fileID: 2104423739}
-  - {fileID: 258580874}
-  - {fileID: 1284450143}
-  - {fileID: 541619440}
-  - {fileID: 380037028}
-  - {fileID: 1444708074}
-  - {fileID: 731670026}
-  - {fileID: 859044746}
-  - {fileID: 1521497597}
-  - {fileID: 1918414574}
-  - {fileID: 1585389724}
-  m_Father: {fileID: 1242144923}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &371762752
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 371762753}
-  - component: {fileID: 371762756}
-  - component: {fileID: 371762755}
-  - component: {fileID: 371762754}
-  m_Layer: 0
-  m_Name: TreasurePlatform
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &371762753
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 371762752}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.4, y: 0, z: -0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_Children: []
   m_Father: {fileID: 5659951756592512904}
   m_RootOrder: 4
@@ -5295,15 +5108,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1582299290397678540, guid: ec30ae4d230f482448e50ba97fba12ea, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 4
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-      value: 4
-=======
-      value: 8
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
       objectReference: {fileID: 0}
     - target: {fileID: 1582299290397678540, guid: ec30ae4d230f482448e50ba97fba12ea, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5349,19 +5154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
     - target: {fileID: 4704499978590974648, guid: ec30ae4d230f482448e50ba97fba12ea, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
     - target: {fileID: 7222310703167747256, guid: ec30ae4d230f482448e50ba97fba12ea, type: 3}
       propertyPath: joystick
       value: 
@@ -6067,42 +5863,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &568998320
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 568998321}
-  m_Layer: 0
-  m_Name: MoveSpot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &568998321
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 568998320}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 12.24}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1842287940}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &569355778 stripped
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6279,21 +6039,10 @@ Transform:
   - {fileID: 1876551603}
   - {fileID: 1033516924}
   - {fileID: 1842287940}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   - {fileID: 1818343400}
   - {fileID: 1954569808}
   m_Father: {fileID: 134160502}
   m_RootOrder: 1
-<<<<<<< HEAD
-=======
-=======
-  m_Father: {fileID: 134160502}
-  m_RootOrder: 0
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &621304479
 PrefabInstance:
@@ -6786,15 +6535,7 @@ Transform:
   - {fileID: 129178683}
   - {fileID: 1322952533}
   m_Father: {fileID: 6414133727424054738}
-<<<<<<< HEAD
   m_RootOrder: 9
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_RootOrder: 9
-=======
-  m_RootOrder: 29
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
 --- !u!1 &677504699
 GameObject:
@@ -9546,42 +9287,6 @@ MeshFilter:
   m_GameObject: {fileID: 997744401}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &998245242
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 998245243}
-  m_Layer: 0
-  m_Name: MoveSpot (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &998245243
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998245242}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.18, y: 0, z: 9.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1033516924}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1002233669 stripped
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12259,10 +11964,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1224644024}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 --- !u!1 &1242144922
 GameObject:
   m_ObjectHideFlags: 0
@@ -12313,11 +12014,6 @@ Transform:
   m_Father: {fileID: 1642816976}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 --- !u!1 &1259522792
 GameObject:
   m_ObjectHideFlags: 0
@@ -12868,8 +12564,6 @@ Transform:
   m_PrefabInstance: {fileID: 1315280267}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1322952532
-<<<<<<< HEAD
-=======
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12969,7 +12663,6 @@ BoxCollider:
   m_Size: {x: 2, y: 10, z: 2}
   m_Center: {x: 0, y: 5, z: -0.0000019166619}
 --- !u!1 &1342145603
->>>>>>> parent of 239e55e (Försök cont 2.)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12994,17 +12687,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1322952532}
-  m_LocalRotation: {x: -0.7071068, y: -4.656613e-10, z: -0, w: 0.70710677}
-  m_LocalPosition: {x: -0.328, y: 0.26, z: 0.29}
-  m_LocalScale: {x: 40.800022, y: 552.9624, z: 587.4748}
-  m_Children: []
-  m_Father: {fileID: 674216827}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!23 &1322952534
-=======
   m_GameObject: {fileID: 1342145603}
   m_LocalRotation: {x: 0.008726228, y: 0.008726225, z: -0.00007615282, w: 0.9999238}
   m_LocalPosition: {x: -78.568344, y: -7.176303, z: -26.826847}
@@ -13027,7 +12709,6 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1342145606
->>>>>>> parent of 239e55e (Försök cont 2.)
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15695,42 +15376,6 @@ MeshFilter:
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1589739034
 GameObject:
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1589739035}
-  m_Layer: 0
-  m_Name: MovePoint (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1589739035
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589739034}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.44, y: 0, z: 4.28}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1954569808}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1591281541
-PrefabInstance:
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -16440,20 +16085,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 310c716e41a47eb4ead87466b63fc0d8, type: 3}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 --- !u!4 &1653701008 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 310c716e41a47eb4ead87466b63fc0d8, type: 3}
   m_PrefabInstance: {fileID: 1653701007}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 --- !u!1 &1658588071
 GameObject:
   m_ObjectHideFlags: 0
@@ -16824,15 +16460,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-<<<<<<< HEAD
 --- !u!1 &1688053371
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
---- !u!1 &1688053371
-=======
---- !u!1 &1675035464
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16858,7 +16486,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.68, y: 0, z: -4.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
-<<<<<<< HEAD
   m_Children: []
   m_Father: {fileID: 1876551603}
   m_RootOrder: 1
@@ -17047,26 +16674,10 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1692100999
 MeshRenderer:
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
-  m_Children:
-  - {fileID: 1904229015}
-  - {fileID: 1146126415}
-  - {fileID: 1315280268}
-  - {fileID: 1993673945}
-  - {fileID: 1779332177}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1688053371
-GameObject:
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1692100996}
   m_Enabled: 1
   m_CastShadows: 1
@@ -17104,25 +16715,10 @@ GameObject:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!33 &1692101000
 MeshFilter:
-=======
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1688053372}
-  m_Layer: 0
-  m_Name: MoveSpot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1688053372
-Transform:
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   m_GameObject: {fileID: 1692100996}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1697207458
@@ -17285,23 +16881,10 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1700805586
-=======
-  m_GameObject: {fileID: 1688053371}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.68, y: 0, z: -4.76}
-  m_LocalScale: {x: 1, y: 1, z: 1}
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-  m_Children: []
-  m_Father: {fileID: 1876551603}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1690229428
->>>>>>> parent of 239e55e (Försök cont 2.)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-<<<<<<< HEAD
     m_TransformParent: {fileID: 1922067950}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 48f27bc006ab924468355d4d624b0792, type: 3}
@@ -17523,140 +17106,6 @@ Transform:
   m_PrefabInstance: {fileID: 1791070699}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1764383409
-=======
-    m_TransformParent: {fileID: 6414133727133110094}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -13.650003
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.019999936
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 14.017002
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 5.1448793e-12
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 5.1448793e-12
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_Name
-      value: couch (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
---- !u!4 &1690229429 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-  m_PrefabInstance: {fileID: 1690229428}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1691587869
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 6414133727424054738}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_RootOrder
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalScale.x
-      value: -0.50000006
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.7300001
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.46000007
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.866647
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.1038895
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -7.8260055
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.70710677
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7069991
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.012340747
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-      propertyPath: m_Name
-      value: arrowLeft
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
---- !u!4 &1691587870 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 55ee963e0b6bb4347bc5733ea18b3b64, type: 3}
-  m_PrefabInstance: {fileID: 1691587869}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1692100996
->>>>>>> parent of 239e55e (Försök cont 2.)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17881,11 +17330,6 @@ BoxCollider:
   m_Center: {x: -0.00000089035893, y: 5.000005, z: -0.0000038007274}
 --- !u!1 &1776088913
 GameObject:
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -18197,617 +17641,6 @@ BoxCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
-  m_GameObject: {fileID: 1739615644}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.5000002, y: 0.9999999, z: 1.5000002}
-  m_Center: {x: 0, y: 0.49999994, z: -0.0000019073486}
---- !u!1 &1743336747
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1743336748}
-  m_Layer: 0
-  m_Name: MoveSpot (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1743336748
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1743336747}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.68, y: -18.37, z: 17.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1876551603}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1743483569 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
-  m_PrefabInstance: {fileID: 1791070699}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1764383409
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1764383410}
-  - component: {fileID: 1764383413}
-  - component: {fileID: 1764383412}
-  - component: {fileID: 1764383411}
-  m_Layer: 0
-  m_Name: Cube (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1764383410
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764383409}
-  m_LocalRotation: {x: -4.656613e-10, y: -0.003029555, z: -0.0000000013969839, w: 0.99999547}
-  m_LocalPosition: {x: 0.073, y: -0.275, z: -0.008}
-  m_LocalScale: {x: 0.8493991, y: 0.49232993, z: 1.102237}
-  m_Children: []
-  m_Father: {fileID: 1915540552}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1764383411
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764383409}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1764383412
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764383409}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 28bc64a1ed1f8bf449a4e9823ad164b8, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1764383413
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764383409}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1764874872
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1764874873}
-  m_Layer: 0
-  m_Name: LEVEL
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1764874873
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1764874872}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 79.009995, y: 7.7, z: 52.05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  - {fileID: 1642816976}
-  - {fileID: 134160502}
-  - {fileID: 232100790}
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-=======
-  - {fileID: 4212039626783085664}
-  - {fileID: 5659951756592512904}
-  - {fileID: 6414133727424054738}
-  - {fileID: 6941440236362374021}
-  - {fileID: 8681546375760465770}
-  - {fileID: 5659951756862535820}
-  - {fileID: 5659951758065949126}
-  - {fileID: 6414133727133110094}
-  - {fileID: 369678640}
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1772216365
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1772216366}
-  - component: {fileID: 1772216368}
-  - component: {fileID: 1772216367}
-  - component: {fileID: 1772216369}
-  m_Layer: 0
-  m_Name: pillar (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1772216366
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772216365}
-  m_LocalRotation: {x: -0.27896976, y: -0.96029997, z: 0.0000000023319442, w: -4.6566123e-10}
-  m_LocalPosition: {x: -12.478, y: 1.305, z: -0}
-  m_LocalScale: {x: 2, y: 1, z: 2}
-  m_Children: []
-  m_Father: {fileID: 8681546375760465770}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 32.397}
---- !u!23 &1772216367
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772216365}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1772216368
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772216365}
-  m_Mesh: {fileID: -5495902117074765545, guid: 48f27bc006ab924468355d4d624b0792, type: 3}
---- !u!65 &1772216369
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772216365}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.000003, y: 10.000003, z: 2.0000021}
-  m_Center: {x: -0.00000089035893, y: 5.000005, z: -0.0000038007274}
---- !u!1 &1776088913
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1776088914}
-  - component: {fileID: 1776088917}
-  - component: {fileID: 1776088916}
-  - component: {fileID: 1776088915}
-  m_Layer: 0
-  m_Name: Cylinder (6)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1776088914
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776088913}
-  m_LocalRotation: {x: -0.000000014901158, y: 0.000000029802315, z: -0.000000029802315, w: 1}
-  m_LocalPosition: {x: 0, y: 78.082214, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1530638687}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!136 &1776088915
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776088913}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!23 &1776088916
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776088913}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: adf9e6739401bdf4e93ad5e06eae1dd9, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1776088917
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776088913}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1776787682
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1776787683}
-  - component: {fileID: 1776787684}
-  m_Layer: 0
-  m_Name: PostProcessingGO
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1776787683
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776787682}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1835480080}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1776787684
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1776787682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 1960a81ec2278ad4e9ad61c34fe2f371, type: 2}
-  isGlobal: 0
-  blendDistance: 0
-  weight: 1
-  priority: 0
---- !u!1001 &1779332176
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-    m_TransformParent: {fileID: 2036559317}
-=======
-    m_TransformParent: {fileID: 1675035465}
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalPosition.x
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-      value: -64.029755
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.7506247
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -37.877697
-=======
-      value: 67.28858
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 21.665678
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 67.83915
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7108859
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.0029903324
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.7032945
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.003022609
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -89.385
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.487
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-      propertyPath: m_Name
-      value: couch
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
---- !u!4 &1779332177 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
-  m_PrefabInstance: {fileID: 1779332176}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1786284951
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1786284952}
-  - component: {fileID: 1786284955}
-  - component: {fileID: 1786284954}
-  - component: {fileID: 1786284953}
-  m_Layer: 0
-  m_Name: Cylinder (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1786284952
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786284951}
-  m_LocalRotation: {x: -0.7071067, y: -0.00000006749177, z: -0.70710677, w: -0.000000029802315}
-  m_LocalPosition: {x: -0.02173908, y: 39.18119, z: 0.008696267}
-  m_LocalScale: {x: 0.8695656, y: 40.021633, z: 0.86956525}
-  m_Children: []
-  m_Father: {fileID: 1530638687}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: -90, z: 0}
---- !u!136 &1786284953
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786284951}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
---- !u!23 &1786284954
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786284951}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 96844f44693cb6f4b9795e80e10462f9, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1786284955
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1786284951}
-  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1789805576 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5df07682fa8efc844b361a5a4b70bcfd, type: 3}
-  m_PrefabInstance: {fileID: 1666939807}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1789805577
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_GameObject: {fileID: 1789805576}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -19120,7 +17953,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 4212039626783085664}
     m_Modifications:
     - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-<<<<<<< HEAD
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
@@ -19272,162 +18104,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2057401832}
     - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-=======
->>>>>>> parent of 239e55e (Försök cont 2.)
-      propertyPath: m_RootOrder
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.59
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -4.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5713586697559092275, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-      propertyPath: m_Name
-      value: longLamp (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
---- !u!4 &1835118890 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4900317135560537737, guid: f9a50e948c304cf4aa26d95196a81f8e, type: 3}
-  m_PrefabInstance: {fileID: 1835118889}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
---- !u!1 &1835480079
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1817377635}
-  - component: {fileID: 1817377637}
-  - component: {fileID: 1817377636}
-  m_Layer: 0
-  m_Name: Cube.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1817377635
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817377634}
-  m_LocalRotation: {x: 0.7071068, y: 0.000000053385076, z: -0.70710677, w: 0.00000005338508}
-  m_LocalPosition: {x: -0.27825195, y: 0.18415271, z: 4.855221}
-  m_LocalScale: {x: -47.28613, y: -1958.8593, z: -11.06106}
-  m_Children: []
-  m_Father: {fileID: 674216827}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1817377636
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817377634}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 28bc64a1ed1f8bf449a4e9823ad164b8, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1817377637
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817377634}
-  m_Mesh: {fileID: -1550514412580984892, guid: b116c387aaa8cf946acdecb2a8aba694, type: 3}
---- !u!1001 &1818343399
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 590300434}
-    m_Modifications:
-    - target: {fileID: 3507983258175562031, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: moveSpots.Array.data[0]
-      value: 
-      objectReference: {fileID: 253122668}
-    - target: {fileID: 3507983258175562031, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: moveSpots.Array.data[1]
-      value: 
-      objectReference: {fileID: 2057401832}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
@@ -19482,7 +18158,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
   m_PrefabInstance: {fileID: 1818343399}
   m_PrefabAsset: {fileID: 0}
->>>>>>> parent of 239e55e (Försök cont 2.)
 --- !u!1001 &1835118889
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20982,42 +19657,6 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1924681020
 GameObject:
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1924681021}
-  m_Layer: 0
-  m_Name: MoveSpot (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1924681021
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1924681020}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.96, y: 0, z: -0.74}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1485222744}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1935833793
-PrefabInstance:
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -21336,20 +19975,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 310c716e41a47eb4ead87466b63fc0d8, type: 3}
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 --- !u!4 &1938700033 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 310c716e41a47eb4ead87466b63fc0d8, type: 3}
   m_PrefabInstance: {fileID: 1938700032}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
-=======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
 --- !u!1 &1939497408
 GameObject:
   m_ObjectHideFlags: 0
@@ -21631,10 +20261,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-<<<<<<< HEAD
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
     m_TransformParent: {fileID: 590300434}
     m_Modifications:
     - target: {fileID: 3507983258175562031, guid: 83837f30fe0039948854f98068959a64, type: 3}
@@ -21668,36 +20294,10 @@ PrefabInstance:
     - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.9649999
-<<<<<<< HEAD
       objectReference: {fileID: 0}
     - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
       propertyPath: m_LocalPosition.z
       value: -3.9988616
-=======
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.9988616
-=======
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -84.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.63
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.8838615
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
       objectReference: {fileID: 0}
     - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22066,15 +20666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8902580395411342965, guid: adadf9b7941f65c4cbc91c899681bb13, type: 3}
       propertyPath: m_RootOrder
-<<<<<<< HEAD
       value: 14
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-      value: 14
-=======
-      value: 17
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
       objectReference: {fileID: 0}
     - target: {fileID: 8902580395411342965, guid: adadf9b7941f65c4cbc91c899681bb13, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23158,7 +21750,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5df07682fa8efc844b361a5a4b70bcfd, type: 3}
   m_PrefabInstance: {fileID: 2038640718}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &2038854771
 GameObject:
   m_ObjectHideFlags: 0
@@ -23271,9 +21862,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_GameObject: {fileID: 2057401831}
   m_LocalRotation: {x: -0, y: -0.021983085, z: 4.6566123e-10, w: 0.99975836}
   m_LocalPosition: {x: -24.41, y: -0, z: 18.82}
@@ -23495,16 +22083,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
-<<<<<<< HEAD
       propertyPath: m_LocalPosition.x
-=======
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
-      propertyPath: m_LocalPosition.x
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
       value: -178.86208
       objectReference: {fileID: 0}
     - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
@@ -23514,20 +22093,6 @@ PrefabInstance:
     - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
       propertyPath: m_LocalPosition.z
       value: -50.270218
-<<<<<<< HEAD
-=======
-=======
-      value: -14.98
-      objectReference: {fileID: 0}
-    - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.07
-      objectReference: {fileID: 0}
-    - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.01
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
       objectReference: {fileID: 0}
     - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
       propertyPath: m_LocalRotation.w
@@ -27773,15 +26338,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312712663643939216}
-<<<<<<< HEAD
   m_LocalRotation: {x: 0.0064688576, y: 0.713221, z: 0.0058675823, w: 0.70088476}
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_LocalRotation: {x: 0.0064688576, y: 0.713221, z: 0.0058675823, w: 0.70088476}
-=======
-  m_LocalRotation: {x: 0.006468857, y: 0.713221, z: 0.005867582, w: 0.70088476}
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalPosition: {x: -78.009995, y: -7.7599998, z: 7.7800026}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -27798,16 +26355,6 @@ Transform:
   - {fileID: 1810823961}
   m_Father: {fileID: 1642816976}
   m_RootOrder: 1
-<<<<<<< HEAD
-=======
-=======
-  - {fileID: 1170621745}
-  - {fileID: 1855871802}
-  - {fileID: 485626704}
-  m_Father: {fileID: 1764874873}
-  m_RootOrder: 0
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalEulerAnglesHint: {x: 0.04, y: 91, z: 1}
 --- !u!4 &4390307508497569401
 Transform:
@@ -28270,14 +26817,6 @@ Transform:
   - {fileID: 7355794}
   m_Father: {fileID: 1642816976}
   m_RootOrder: 15
-<<<<<<< HEAD
-=======
-=======
-  - {fileID: 2090564286}
-  m_Father: {fileID: 1764874873}
-  m_RootOrder: 1
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalEulerAnglesHint: {x: -1, y: 181, z: 0}
 --- !u!4 &5659951756862535820
 Transform:
@@ -28287,12 +26826,6 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4813728579990692473}
   m_LocalRotation: {x: -0, y: 0.9999619, z: -0, w: -0.008726464}
-<<<<<<< HEAD
-=======
-=======
-  m_LocalRotation: {x: 0, y: 0.9999619, z: -0, w: -0.008726464}
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalPosition: {x: -104.81999, y: -6.0049996, z: -101.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -28309,18 +26842,8 @@ Transform:
   - {fileID: 1999153517}
   - {fileID: 1366527663}
   - {fileID: 391706405}
-<<<<<<< HEAD
   m_Father: {fileID: 1642816976}
   m_RootOrder: 19
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_Father: {fileID: 1642816976}
-  m_RootOrder: 19
-=======
-  m_Father: {fileID: 1764874873}
-  m_RootOrder: 5
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalEulerAnglesHint: {x: 0, y: 181, z: 0}
 --- !u!4 &5659951758065949126
 Transform:
@@ -28343,18 +26866,8 @@ Transform:
   - {fileID: 243526216}
   - {fileID: 1301144706}
   - {fileID: 543450653130044390}
-<<<<<<< HEAD
   m_Father: {fileID: 1642816976}
   m_RootOrder: 21
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_Father: {fileID: 1642816976}
-  m_RootOrder: 21
-=======
-  m_Father: {fileID: 1764874873}
-  m_RootOrder: 6
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalEulerAnglesHint: {x: 0, y: 270.596, z: 0}
 --- !u!64 &6026545216476801959
 MeshCollider:
@@ -28444,18 +26957,8 @@ Transform:
   - {fileID: 466691593}
   - {fileID: 1528855349}
   - {fileID: 926437700}
-<<<<<<< HEAD
   m_Father: {fileID: 1642816976}
   m_RootOrder: 20
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_Father: {fileID: 1642816976}
-  m_RootOrder: 20
-=======
-  m_Father: {fileID: 1764874873}
-  m_RootOrder: 7
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &6414133727133110095
 GameObject:
@@ -28480,15 +26983,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6414133727424054739}
-<<<<<<< HEAD
   m_LocalRotation: {x: 0.008726227, y: 0.008726225, z: -0.00007615281, w: 0.9999238}
-=======
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_LocalRotation: {x: 0.008726227, y: 0.008726225, z: -0.00007615281, w: 0.9999238}
-=======
-  m_LocalRotation: {x: 0.008726226, y: 0.008726225, z: -0.000076152806, w: 0.9999238}
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalPosition: {x: -79.009995, y: -6.7, z: -52.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -28510,17 +27005,6 @@ Transform:
   - {fileID: 1196825603}
   m_Father: {fileID: 1642816976}
   m_RootOrder: 16
-<<<<<<< HEAD
-=======
-=======
-  - {fileID: 1048270063}
-  - {fileID: 1149056866}
-  - {fileID: 1591281542}
-  - {fileID: 674216827}
-  m_Father: {fileID: 1764874873}
-  m_RootOrder: 2
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalEulerAnglesHint: {x: 1, y: 1, z: 0}
 --- !u!1 &6414133727424054739
 GameObject:
@@ -28681,22 +27165,6 @@ Transform:
   - {fileID: 1915540552}
   m_Father: {fileID: 1642816976}
   m_RootOrder: 17
-<<<<<<< HEAD
-=======
-=======
-  - {fileID: 823749910}
-  - {fileID: 2113201458}
-  - {fileID: 984568932}
-  - {fileID: 1803851819}
-  - {fileID: 631817685}
-  - {fileID: 380976814}
-  - {fileID: 702768871}
-  - {fileID: 979891331}
-  - {fileID: 697081800}
-  m_Father: {fileID: 1764874873}
-  m_RootOrder: 3
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &7076189720086880134
 Transform:
@@ -29360,18 +27828,6 @@ Transform:
   - {fileID: 1835118890}
   m_Father: {fileID: 1642816976}
   m_RootOrder: 18
-<<<<<<< HEAD
-=======
-=======
-  - {fileID: 322759608}
-  - {fileID: 1159541101}
-  - {fileID: 626480177}
-  - {fileID: 207602567}
-  - {fileID: 72509322}
-  m_Father: {fileID: 1764874873}
-  m_RootOrder: 4
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
->>>>>>> parent of 239e55e (Försök cont 2.)
   m_LocalEulerAnglesHint: {x: -0.995, y: 181, z: -0.095}
 --- !u!23 &8813812638901967400
 MeshRenderer:
