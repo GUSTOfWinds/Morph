@@ -9,7 +9,6 @@ public class Laser : MonoBehaviour{
 
 	private void Start() {
 		laserBeams = gameObject.transform.GetChild(0).gameObject;
-		FindObjectOfType<AudioManager>().Play("Laser");
 	}
 
 	private void OnTriggerEnter(Collider collider) {
@@ -23,7 +22,7 @@ public class Laser : MonoBehaviour{
 			child.gameObject.SetActive(false);
 		}
 		laserActive = false;
-		FindObjectOfType<AudioManager>().Stop("Laser");
+		gameObject.GetComponent<AudioSource>().Stop();
 		return true;
 	}
 	public bool turnOn() {
@@ -31,7 +30,7 @@ public class Laser : MonoBehaviour{
 			child.gameObject.SetActive(true);
 		}
 		laserActive = true;
-		FindObjectOfType<AudioManager>().Play("Laser");
+		gameObject.GetComponent<AudioSource>().Play();
 		return true;
 	}
 	public bool toggle() {
@@ -39,8 +38,8 @@ public class Laser : MonoBehaviour{
 			child.gameObject.SetActive(gameObject.activeSelf.Equals(true) ? false : true);
 		}
 		laserActive = laserActive ? false : true;
-		if(laserActive) {FindObjectOfType<AudioManager>().Play("Laser");} 
-		else if(!laserActive) {FindObjectOfType<AudioManager>().Stop("Laser");}
+		if(laserActive) {gameObject.GetComponent<AudioSource>().Play();} 
+		else if(!laserActive) {gameObject.GetComponent<AudioSource>().Stop();}
 		return true;
 	}
 }
