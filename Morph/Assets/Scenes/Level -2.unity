@@ -1031,14 +1031,11 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 573ba90649adc7640a296001e5c8b820, type: 3}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 --- !u!4 &110992084 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 573ba90649adc7640a296001e5c8b820, type: 3}
   m_PrefabInstance: {fileID: 110992083}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 --- !u!1 &113272669
@@ -1209,8 +1206,6 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &129178682
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
 =======
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,122 +1237,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 674216827}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &129178684
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129178682}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 28bc64a1ed1f8bf449a4e9823ad164b8, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &129178685
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 129178682}
-  m_Mesh: {fileID: -5053925668127403250, guid: b116c387aaa8cf946acdecb2a8aba694, type: 3}
---- !u!1 &130397891 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 73462db9ee55c9d4794eb3b544f2f821, type: 3}
-  m_PrefabInstance: {fileID: 821126466}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &130397892
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 130397891}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.2500002, y: 0.4000001, z: 0.9999998}
-  m_Center: {x: 0.0000002682209, y: 0.20000002, z: -0.0000013560057}
---- !u!1 &134160501
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 129178683}
-  - component: {fileID: 129178685}
-  - component: {fileID: 129178684}
-  m_Layer: 0
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_Name: Cube.004
-=======
-  m_Name: ENTITIES
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &129178683
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_GameObject: {fileID: 129178682}
-  m_LocalRotation: {x: 0.7071068, y: 0.000000053385076, z: -0.70710677, w: 0.00000005338508}
-  m_LocalPosition: {x: -0.28970164, y: 0.22745259, z: -4.4035673}
-  m_LocalScale: {x: -47.28613, y: -1969.0311, z: -11.06106}
-  m_Children: []
-  m_Father: {fileID: 674216827}
-  m_RootOrder: 2
-=======
-  m_GameObject: {fileID: 134160501}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -84.45, y: 1.5949999, z: 0.11500001}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 590300434}
-  - {fileID: 87923051}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &129178684
 MeshRenderer:
@@ -3599,10 +3478,7 @@ BoxCollider:
   m_Center: {x: -0.00000012069539, y: 0.5000001, z: 0.000007630879}
 --- !u!1 &369678639
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 =======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3645,7 +3521,6 @@ Transform:
   m_Father: {fileID: 1764874873}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 --- !u!1 &371762752
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 GameObject:
@@ -3690,8 +3565,6 @@ Transform:
   m_Father: {fileID: 1242144923}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 --- !u!1 &371762752
 GameObject:
   m_ObjectHideFlags: 0
@@ -4073,39 +3946,6 @@ MeshFilter:
   m_GameObject: {fileID: 384271852}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &384897252
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 384897253}
-  m_Layer: 0
-  m_Name: MoveSpot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &384897253
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384897252}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.65, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1670891705}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &386154617
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5436,11 +5276,7 @@ PrefabInstance:
     - target: {fileID: 1582299290397678540, guid: ec30ae4d230f482448e50ba97fba12ea, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
       value: 4
-=======
-      value: 8
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
       value: 8
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
@@ -5490,13 +5326,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
     - target: {fileID: 4704499978590974648, guid: ec30ae4d230f482448e50ba97fba12ea, type: 3}
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
     - target: {fileID: 7222310703167747256, guid: ec30ae4d230f482448e50ba97fba12ea, type: 3}
@@ -6205,7 +6038,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!1 &568998320
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 =======
 GameObject:
   m_ObjectHideFlags: 0
@@ -6237,8 +6069,6 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &569355778 stripped
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 GameObject:
   m_ObjectHideFlags: 0
@@ -6417,15 +6247,10 @@ Transform:
   - {fileID: 1033516924}
   - {fileID: 1842287940}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
   - {fileID: 1818343400}
   - {fileID: 1954569808}
   m_Father: {fileID: 134160502}
   m_RootOrder: 1
-=======
-  m_Father: {fileID: 134160502}
-  m_RootOrder: 0
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
   m_Father: {fileID: 134160502}
   m_RootOrder: 0
@@ -6923,11 +6748,7 @@ Transform:
   - {fileID: 1322952533}
   m_Father: {fileID: 6414133727424054738}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
   m_RootOrder: 9
-=======
-  m_RootOrder: 29
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
   m_RootOrder: 29
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
@@ -9683,7 +9504,6 @@ MeshFilter:
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &998245242
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 =======
 GameObject:
   m_ObjectHideFlags: 0
@@ -9715,8 +9535,6 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1002233669 stripped
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 GameObject:
   m_ObjectHideFlags: 0
@@ -12396,7 +12214,6 @@ MeshFilter:
   m_GameObject: {fileID: 1224644024}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 --- !u!1 &1242144922
 GameObject:
   m_ObjectHideFlags: 0
@@ -12447,8 +12264,6 @@ Transform:
   m_Father: {fileID: 1642816976}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 --- !u!1 &1259522792
@@ -13001,8 +12816,6 @@ Transform:
   m_PrefabInstance: {fileID: 1315280267}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1322952532
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13035,131 +12848,6 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!23 &1322952534
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322952532}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 28bc64a1ed1f8bf449a4e9823ad164b8, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1322952535
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1322952532}
-  m_Mesh: {fileID: -5495902117074765545, guid: b116c387aaa8cf946acdecb2a8aba694, type: 3}
---- !u!1 &1340426286 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 48f27bc006ab924468355d4d624b0792, type: 3}
-  m_PrefabInstance: {fileID: 1700805586}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1340426287
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340426286}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 10, z: 2}
-  m_Center: {x: 0, y: 5, z: -0.0000019166619}
---- !u!1 &1342145603
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1322952533}
-  - component: {fileID: 1322952535}
-  - component: {fileID: 1322952534}
-  m_Layer: 0
-  m_Name: Cube (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1322952533
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-  m_GameObject: {fileID: 1322952532}
-  m_LocalRotation: {x: -0.7071068, y: -4.656613e-10, z: -0, w: 0.70710677}
-  m_LocalPosition: {x: -0.328, y: 0.26, z: 0.29}
-  m_LocalScale: {x: 40.800022, y: 552.9624, z: 587.4748}
-  m_Children: []
-  m_Father: {fileID: 674216827}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!23 &1322952534
-=======
-  m_GameObject: {fileID: 1342145603}
-  m_LocalRotation: {x: 0.008726228, y: 0.008726225, z: -0.00007615282, w: 0.9999238}
-  m_LocalPosition: {x: -78.568344, y: -7.176303, z: -26.826847}
-  m_LocalScale: {x: 10, y: 0.1, z: 0.5}
-  m_Children: []
-  m_Father: {fileID: 369678640}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1342145605
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342145603}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1342145606
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15941,7 +15629,6 @@ MeshFilter:
 --- !u!1 &1589739034
 GameObject:
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 =======
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15973,8 +15660,6 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1591281541
 PrefabInstance:
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16686,14 +16371,11 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 310c716e41a47eb4ead87466b63fc0d8, type: 3}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 --- !u!4 &1653701008 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 310c716e41a47eb4ead87466b63fc0d8, type: 3}
   m_PrefabInstance: {fileID: 1653701007}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 --- !u!1 &1658588071
@@ -16807,8 +16489,6 @@ BoxCollider:
   m_Size: {x: 3.5286937, y: 1.1480861, z: 1.4366565}
   m_Center: {x: 0.00000071525574, y: 0.5723875, z: 0.7183273}
 --- !u!1 &1669159530
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-=======
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16832,252 +16512,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669159530}
-  m_LocalRotation: {x: 0.7071068, y: -0.000000053385076, z: 0.70710677, w: 0.00000005338508}
-  m_LocalPosition: {x: -0.352, y: 5.44, z: 0.263}
-  m_LocalScale: {x: 293.7552, y: 14.907569, z: 11.121273}
-  m_Children: []
-  m_Father: {fileID: 674216827}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1669159532
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669159530}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 28bc64a1ed1f8bf449a4e9823ad164b8, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1669159533
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1669159530}
-  m_Mesh: {fileID: -8678823145569952518, guid: b116c387aaa8cf946acdecb2a8aba694, type: 3}
---- !u!1001 &1670891704
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 590300434}
-    m_Modifications:
-    - target: {fileID: 4924855785942336917, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_Name
-      value: guard (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 92.56
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.6753675
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 60.839085
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 135
-      objectReference: {fileID: 0}
-    - target: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
---- !u!4 &1670891705 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5697979944776146735, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-  m_PrefabInstance: {fileID: 1670891704}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1670891706 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4924855785942336917, guid: 6c77d1751a8c53948a0636fa15e8dedf, type: 3}
-  m_PrefabInstance: {fileID: 1670891704}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1670891707
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1670891706}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: dc05e36249ef18f45b8f929ea620ef4d, type: 2}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!1 &1675035464
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1669159531}
-  - component: {fileID: 1669159533}
-  - component: {fileID: 1669159532}
-  m_Layer: 0
-  m_Name: Cube.003
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1669159531
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
   m_GameObject: {fileID: 1669159530}
   m_LocalRotation: {x: 0.7071068, y: -0.000000053385076, z: 0.70710677, w: 0.00000005338508}
   m_LocalPosition: {x: -0.352, y: 5.44, z: 0.263}
@@ -17346,12 +16780,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 =======
-=======
-  m_GameObject: {fileID: 1675035464}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -52.308346, y: -20.716303, z: -53.666847}
-  m_LocalScale: {x: 1, y: 1, z: 1}
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_Children:
   - {fileID: 1904229015}
   - {fileID: 1146126415}
@@ -17387,9 +16815,6 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.68, y: 0, z: -4.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_Children: []
   m_Father: {fileID: 1876551603}
@@ -17734,10 +17159,7 @@ MeshFilter:
 --- !u!1 &1698535751
 GameObject:
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 =======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -18205,15 +17627,12 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
   - {fileID: 1642816976}
   - {fileID: 134160502}
   - {fileID: 232100790}
   m_Father: {fileID: 0}
   m_RootOrder: 1
 =======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   - {fileID: 4212039626783085664}
   - {fileID: 5659951756592512904}
   - {fileID: 6414133727424054738}
@@ -18225,9 +17644,6 @@ Transform:
   - {fileID: 369678640}
   m_Father: {fileID: 0}
   m_RootOrder: 5
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1772216365
@@ -18475,11 +17891,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
     m_TransformParent: {fileID: 2036559317}
-=======
-    m_TransformParent: {fileID: 1675035465}
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
     m_TransformParent: {fileID: 1675035465}
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
@@ -18491,7 +17903,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
       value: -64.029755
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
@@ -18502,8 +17913,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -37.877697
 =======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
       value: 67.28858
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
@@ -18513,9 +17922,6 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
       propertyPath: m_LocalPosition.z
       value: 67.83915
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 80a454250dd63ae45b7cd53de653b72b, type: 3}
@@ -19349,149 +18755,6 @@ PrefabInstance:
     - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
       propertyPath: m_LocalPosition.z
       value: 49.00862
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.6759018
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0.00646682
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7367046
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.01952604
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: -1.148
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 94.909
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 2.059
-      objectReference: {fileID: 0}
-    - target: {fileID: 4354899468883178459, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_Name
-      value: Dog (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 83837f30fe0039948854f98068959a64, type: 3}
---- !u!4 &1818343400 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-  m_PrefabInstance: {fileID: 1818343399}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1817377634
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1817377635}
-  - component: {fileID: 1817377637}
-  - component: {fileID: 1817377636}
-  m_Layer: 0
-  m_Name: Cube.002
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1817377635
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817377634}
-  m_LocalRotation: {x: 0.7071068, y: 0.000000053385076, z: -0.70710677, w: 0.00000005338508}
-  m_LocalPosition: {x: -0.27825195, y: 0.18415271, z: 4.855221}
-  m_LocalScale: {x: -47.28613, y: -1958.8593, z: -11.06106}
-  m_Children: []
-  m_Father: {fileID: 674216827}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &1817377636
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817377634}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 28bc64a1ed1f8bf449a4e9823ad164b8, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1817377637
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1817377634}
-  m_Mesh: {fileID: -1550514412580984892, guid: b116c387aaa8cf946acdecb2a8aba694, type: 3}
---- !u!1001 &1818343399
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -7.252346
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.02617383
-      objectReference: {fileID: 0}
-    - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 49.123623
       objectReference: {fileID: 0}
     - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21032,7 +20295,6 @@ Transform:
 --- !u!1 &1924681020
 GameObject:
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 =======
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21064,8 +20326,6 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1935833793
 PrefabInstance:
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -21386,14 +20646,11 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 310c716e41a47eb4ead87466b63fc0d8, type: 3}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 --- !u!4 &1938700033 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 310c716e41a47eb4ead87466b63fc0d8, type: 3}
   m_PrefabInstance: {fileID: 1938700032}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 --- !u!1 &1939497408
@@ -21678,7 +20935,6 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
     m_TransformParent: {fileID: 590300434}
     m_Modifications:
     - target: {fileID: 3507983258175562031, guid: 83837f30fe0039948854f98068959a64, type: 3}
@@ -21717,8 +20973,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -3.9988616
 =======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
@@ -21736,9 +20990,6 @@ PrefabInstance:
     - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
       propertyPath: m_LocalPosition.z
       value: -3.8838615
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
       objectReference: {fileID: 0}
     - target: {fileID: 3973412178301675873, guid: 83837f30fe0039948854f98068959a64, type: 3}
@@ -22109,11 +21360,7 @@ PrefabInstance:
     - target: {fileID: 8902580395411342965, guid: adadf9b7941f65c4cbc91c899681bb13, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
       value: 14
-=======
-      value: 17
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
       value: 17
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
@@ -23426,121 +22673,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
---- !u!1 &2038854771
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2038854772}
-  m_Layer: 0
-  m_Name: MoveSpot (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2038854772
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2038854771}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: 0, z: -2.58}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1842287940}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2042774487
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2042774488}
-  m_Layer: 0
-  m_Name: MoveSpot (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2042774488
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2042774487}
-  m_LocalRotation: {x: -0, y: 0.043444153, z: -0, w: 0.99905586}
-  m_LocalPosition: {x: -1.46, y: 0, z: -17.18}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1218563261}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 4.98, z: 0}
---- !u!1 &2051299997
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2051299998}
-  m_Layer: 0
-  m_Name: MoveSpot1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2051299998
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051299997}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.79, y: 0, z: 17.48}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1988098488}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2057401831
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2057401832}
-  m_Layer: 0
-  m_Name: MovePoint (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2057401832
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_GameObject: {fileID: 2057401831}
   m_LocalRotation: {x: -0, y: -0.021983085, z: 4.6566123e-10, w: 0.99975836}
@@ -23767,12 +22899,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
       propertyPath: m_LocalPosition.x
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
       value: -178.86208
       objectReference: {fileID: 0}
@@ -23784,8 +22911,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -50.270218
 =======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
       value: -14.98
       objectReference: {fileID: 0}
     - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
@@ -23795,9 +22920,6 @@ PrefabInstance:
     - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.01
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
       objectReference: {fileID: 0}
     - target: {fileID: 3749599437027342744, guid: 9fb7f4b1a755355419a120f40d864b84, type: 3}
@@ -28045,11 +27167,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 312712663643939216}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
   m_LocalRotation: {x: 0.0064688576, y: 0.713221, z: 0.0058675823, w: 0.70088476}
-=======
-  m_LocalRotation: {x: 0.006468857, y: 0.713221, z: 0.005867582, w: 0.70088476}
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
   m_LocalRotation: {x: 0.006468857, y: 0.713221, z: 0.005867582, w: 0.70088476}
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
@@ -28076,9 +27194,6 @@ Transform:
   - {fileID: 485626704}
   m_Father: {fileID: 1764874873}
   m_RootOrder: 0
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_LocalEulerAnglesHint: {x: 0.04, y: 91, z: 1}
 --- !u!4 &4390307508497569401
@@ -28547,9 +27662,6 @@ Transform:
   - {fileID: 2090564286}
   m_Father: {fileID: 1764874873}
   m_RootOrder: 1
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_LocalEulerAnglesHint: {x: -1, y: 181, z: 0}
 --- !u!4 &5659951756862535820
@@ -28563,9 +27675,6 @@ Transform:
   m_LocalRotation: {x: -0, y: 0.9999619, z: -0, w: -0.008726464}
 =======
   m_LocalRotation: {x: 0, y: 0.9999619, z: -0, w: -0.008726464}
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_LocalPosition: {x: -104.81999, y: -6.0049996, z: -101.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -28584,12 +27693,9 @@ Transform:
   - {fileID: 1366527663}
   - {fileID: 391706405}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
   m_Father: {fileID: 1642816976}
   m_RootOrder: 19
 =======
-=======
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_Father: {fileID: 1764874873}
   m_RootOrder: 5
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
@@ -28616,13 +27722,8 @@ Transform:
   - {fileID: 1301144706}
   - {fileID: 543450653130044390}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
   m_Father: {fileID: 1642816976}
   m_RootOrder: 21
-=======
-  m_Father: {fileID: 1764874873}
-  m_RootOrder: 6
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
   m_Father: {fileID: 1764874873}
   m_RootOrder: 6
@@ -28717,13 +27818,8 @@ Transform:
   - {fileID: 1528855349}
   - {fileID: 926437700}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
   m_Father: {fileID: 1642816976}
   m_RootOrder: 20
-=======
-  m_Father: {fileID: 1764874873}
-  m_RootOrder: 7
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
   m_Father: {fileID: 1764874873}
   m_RootOrder: 7
@@ -28753,11 +27849,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6414133727424054739}
 <<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
   m_LocalRotation: {x: 0.008726227, y: 0.008726225, z: -0.00007615281, w: 0.9999238}
-=======
-  m_LocalRotation: {x: 0.008726226, y: 0.008726225, z: -0.000076152806, w: 0.9999238}
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
 =======
   m_LocalRotation: {x: 0.008726226, y: 0.008726225, z: -0.000076152806, w: 0.9999238}
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
@@ -28790,9 +27882,6 @@ Transform:
   - {fileID: 674216827}
   m_Father: {fileID: 1764874873}
   m_RootOrder: 2
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_LocalEulerAnglesHint: {x: 1, y: 1, z: 0}
 --- !u!1 &6414133727424054739
@@ -28967,9 +28056,6 @@ Transform:
   - {fileID: 697081800}
   m_Father: {fileID: 1764874873}
   m_RootOrder: 3
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &7076189720086880134
@@ -29643,9 +28729,6 @@ Transform:
   - {fileID: 72509322}
   m_Father: {fileID: 1764874873}
   m_RootOrder: 4
-<<<<<<< Updated upstream:Morph/Assets/Scenes/Level -2.unity
->>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
-=======
 >>>>>>> Stashed changes:Morph/Assets/Scenes/Level 2.unity
   m_LocalEulerAnglesHint: {x: -0.995, y: 181, z: -0.095}
 --- !u!23 &8813812638901967400
