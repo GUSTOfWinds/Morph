@@ -15,11 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Won.unity
     guid: 20e9750a2437e8b4f9d02a0703da665a
   - enabled: 1
-<<<<<<< HEAD
     path: Assets/Scenes/Level -2.unity
-=======
-    path: Assets/Scenes/Level 2scuffed.unity
->>>>>>> 2de122fee9fd1d6978ce6314d9f49048ee9a46a9
     guid: 504413c598ea18843af1b33e38e9abe2
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
