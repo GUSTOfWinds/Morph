@@ -39,11 +39,6 @@ public class PlayerController : MonoBehaviour{
 		return canMove ? canMove = false : canMove = true;
 	}
 
-	private void OnCollisionEnter(Collision collision) {
-		Debug.DrawRay(collision.contacts[0].point, collision.contacts[0].normal, Color.white);
-		Debug.Log("Collision!");
-	}
-
 	//Bug: Using the joystick with object behind causes player to select that object. 
 	//Additional bug: Using the previous method can invert the toggle movement and allow movement of player whilst morphed.
 	//Additional bug: Using the previous method can allow the player the climb on top of the guard.
