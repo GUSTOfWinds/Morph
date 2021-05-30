@@ -15,8 +15,11 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Won.unity
     guid: 20e9750a2437e8b4f9d02a0703da665a
   - enabled: 1
-    path: Assets/Scenes/Level -2.unity
-    guid: 504413c598ea18843af1b33e38e9abe2
+    path: Assets/Scenes/Level 2.unity
+    guid: a2f2edeae7da1824bb392ac398a07bc9
+  - enabled: 1
+    path: Assets/Scenes/Game Won - kopia.unity
+    guid: ebd837adb1ad85c4ba02f81a3ce4b24c
   - enabled: 1
     path: Assets/Scenes/Game Over.unity
     guid: 384d9e461ac716849b3a81554b643931
