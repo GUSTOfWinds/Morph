@@ -43,9 +43,9 @@ public class PlayerController : MonoBehaviour{
 	//Additional bug: Using the previous method can invert the toggle movement and allow movement of player whilst morphed.
 	//Additional bug: Using the previous method can allow the player the climb on top of the guard.
 	private void SelectObject() {
-		bool isMorphed = gameObject.GetComponent<MorphController>().isMorphed().Equals(false);
-		//For mouse
-		if(Input.GetMouseButtonDown(0) && isMorphed) {
+		bool isMorphed = gameObject.GetComponent<MorphController>().isMorphed();
+		//For PC
+		/*if(Input.GetMouseButtonDown(0) && !isMorphed) {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			Debug.DrawRay(ray.origin, ray.direction * 100, Color.red, 30f);
 			RaycastHit hit;
@@ -61,11 +61,11 @@ public class PlayerController : MonoBehaviour{
 		} else if(Input.GetMouseButtonDown(0) && gameObject.GetComponent<MorphController>().isMorphed().Equals(true)) {
 			gameObject.GetComponent<MorphController>().morphObject();
 			toggleMovement();
-		}
+		}*/
 
 		//For touch, uncomment for release!
 		//sauce: https://answers.unity.com/questions/1126621/best-way-to-detect-touch-on-a-gameobject.html
-		/*if(Input.touchCount > 0 && Input.GetTouch(0).phase.Equals(touchPhase) && gameObject.GetComponent<Morph>().isMorphed().Equals(false)) {
+		if(Input.touchCount > 0 && Input.GetTouch(0).phase.Equals(touchPhase) && !isMorphed) {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			Debug.DrawRay(ray.origin, ray.direction * 100, Color.red, 30f);
 			RaycastHit hit;
@@ -75,12 +75,12 @@ public class PlayerController : MonoBehaviour{
 					toggleMovement();
 					GameObject selectedObject = hit.transform.gameObject;
 					//Debug.Log("Morphing into: " + selectedObject + ".");
-					gameObject.GetComponent<Morph>().morphObject(selectedObject);
+					gameObject.GetComponent<MorphController>().morphObject(selectedObject);
 				}
 			}
-		} else if(Input.GetMouseButtonDown(0) && gameObject.GetComponent<Morph>().isMorphed().Equals(true)) {
-			gameObject.GetComponent<Morph>().morphObject();
+		} else if(Input.GetMouseButtonDown(0) && gameObject.GetComponent<MorphController>().isMorphed().Equals(true)) {
+			gameObject.GetComponent<MorphController>().morphObject();
 			toggleMovement();
-		}*/
+		}
 	}
 }
